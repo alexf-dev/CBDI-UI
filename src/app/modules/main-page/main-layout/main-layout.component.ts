@@ -27,7 +27,9 @@ export class MainLayoutComponent {
       .pipe(filter(event => event instanceof NavigationEnd))
       .subscribe(() => {
         const url = this.router.url;
-        if (url.includes('patients/history')) {
+        if (url.includes('expert-examination')) {
+          this.currentBreadcrumb = 'Экспертное обследование';
+        } else if (url.includes('patients/history')) {
           this.currentBreadcrumb = 'История пациента';
         } else if (url.includes('patients')) {
           this.currentBreadcrumb = 'Пациенты';

@@ -1,0 +1,19 @@
+<div class="laboratory-block">
+
+  <!-- Заголовок -->
+  <div class="block-header" (click)="toggle()">
+    <i class="pi pi-chevron-down"
+       [class.rotated]="isExpanded"
+       style="margin-right: 8px; font-size: 12px; color: #262626;">
+    </i>
+    <span class="block-title">
+      {{ 'MAIN.EXAMINATION.EXPERT_EXAMINATION.LABORATORY_DATA.URINE_TEST' | translate }}
+    </span>
+  </div>
+
+  <!-- Содержимое -->
+  <div class="block-content" *ngIf="isExpanded">
+    <p class="placeholder-text">Макеты блока в разработке</p>
+  </div>
+
+</div>

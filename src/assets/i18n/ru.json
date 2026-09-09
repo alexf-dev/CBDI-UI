@@ -302,6 +302,77 @@
           "BAIKONUR": "Регистрация по Байконуру"
         }
       },
+      "EXPERT_EXAMINATION": {
+        "TITLE": "Экспертное обследование",
+        "SAVE": "Сохранить",
+        "LABORATORY_DATA": {
+          "TITLE": "Данные лабораторных исследований",
+          "ADDITIONAL_METHODS_SECTION": "Данные дополнительных и лабораторных методов обследования",
+          "KAG": "КАГ",
+          "XRAY": "Рентгенография",
+          "ULTRASOUND": "УЗИ/УЗД",
+          "ABDOMINAL_ULTRASOUND": "УЗИ органов брюшной полости",
+          "HEART_ULTRASOUND": "УЗИ сердца",
+          "ECG": "ЭКГ",
+          "EEG": "ЭЭГ",
+          "OTHER": "Другие",
+          "BLOOD_TEST": "Общий анализ крови",
+          "IN_NORMAL_RANGE": "В пределах нормы",
+          "ERYTHROCYTES": "Эритроциты",
+          "HEMOGLOBIN": "Hb",
+          "COLOR_INDEX": "ЦП/ТК",
+          "HEMATOCRIT": "Гематокрит",
+          "PLATELETS": "Тромбоциты",
+          "LEUKOCYTES": "Лейкоциты",
+          "BAND_NUCLEAR": "Палочкоядерные",
+          "SEGMENTED_NUCLEAR": "Сегментоядерные",
+          "EOSINOPHILS": "Эозинофилы",
+          "BASOPHILS": "Базофилы",
+          "LYMPHOCYTES": "Лимфоциты",
+          "MONOCYTES": "Моноциты",
+          "ESR": "СОЭ",
+          "BIOCHEMICAL_BLOOD_TEST": "Биохимический анализ крови",
+          "URINE_TEST": "Общий анализ мочи",
+          "SAVE": "Сохранить",
+          "ENTER_VALUE": "Введите",
+          "HINT": {
+            "ERYTHROCYTES": "Муж. 4,0~5,1×10¹², Жен. 3,7~4,7×10¹²",
+            "HEMOGLOBIN": "Муж. 130~160 г/л, Жен. 120~140 г/л",
+            "COLOR_INDEX": "0,85~1,0",
+            "HEMATOCRIT": "Муж. 40~48%, Жен. 36~42%",
+            "PLATELETS": "180~320×10⁹",
+            "LEUKOCYTES": "4,0~9,0×10",
+            "BAND_NUCLEAR": "1~6%",
+            "SEGMENTED_NUCLEAR": "47~72%",
+            "EOSINOPHILS": "0,5~5%",
+            "BASOPHILS": "0~1%",
+            "LYMPHOCYTES": "19~37%",
+            "MONOCYTES": "3~11%",
+            "ESR": "Муж. 1~10 мм/ч, Жен. 2~15 мм/ч"
+          }
+        },
+        "THERAPEUTIC_STATUS": {
+          "TITLE": "Терапевтический статус"
+        },
+        "SPECIALISTS_CONCLUSION": {
+          "TITLE": "Заключение специалистов ЛПУ"
+        },
+        "REHABILITATION_CONCLUSION": {
+          "TITLE": "Реабилитационно-экспертное заключение"
+        },
+        "IIN_MERGE": {
+          "TITLE": "Объеденение ИИН"
+        },
+        "SURGICAL_STATUS": {
+          "TITLE": "Хирургический статус"
+        },
+        "NEUROLOGICAL_STATUS": {
+          "TITLE": "Неврологический статус"
+        },
+        "OPHTHALMOLOGY_DATA": {
+          "TITLE": "Офтальмологические данные"
+        }
+      },
       "EXPERT-CONCLUSION": {
         "GOAL": {
           "TITLE": "Цель освидетельствования:"

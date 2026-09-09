@@ -28,6 +28,10 @@ const routes: Routes = [
       // },
 
       {
+        path: 'expert-examination',
+        loadChildren: () => import('../expert-examination/expert-examination.module').then(m => m.ExpertExaminationModule)
+      },
+      {
         path: 'examination/:mode/:patientId/:expertOpinionId',
         loadChildren: () => import('../examination/examination.module').then(m => m.ExaminationModule)
       },

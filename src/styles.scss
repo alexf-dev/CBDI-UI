@@ -373,6 +373,256 @@ app-root{
   }
 }
 
+/* === Стили для всех блоков формы "Данные лабораторных исследований" === */
 
+/* === БЛОК (контейнер) === */
+.laboratory-block,
+app-additional-methods,
+app-blood-test,
+app-biochemical-blood-test,
+app-urine-test {
+  display: block;
+  width: 100%;
+}
 
+/* === ЗАГОЛОВОК БЛОКА (шапка с фоном) === */
+.laboratory-block .block-header,
+app-additional-methods .block-header,
+app-blood-test .block-header,
+app-biochemical-blood-test .block-header,
+app-urine-test .block-header {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 48px !important;
+  padding: 8px 16px !important;
+  background: #F1F5F9 !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease !important;
+  box-sizing: border-box !important;
+}
 
+.laboratory-block .block-header:hover,
+app-additional-methods .block-header:hover,
+app-blood-test .block-header:hover,
+app-biochemical-blood-test .block-header:hover,
+app-urine-test .block-header:hover {
+  background: #E8ECF1 !important;
+}
+
+/* === СТРЕЛКА === */
+.laboratory-block .block-header .pi-chevron-down,
+app-additional-methods .block-header .pi-chevron-down,
+app-blood-test .block-header .pi-chevron-down,
+app-biochemical-blood-test .block-header .pi-chevron-down,
+app-urine-test .block-header .pi-chevron-down {
+  transition: transform 0.2s ease !important;
+  flex-shrink: 0 !important;
+  margin-right: 8px !important;
+  font-size: 12px !important;
+  color: #262626 !important;
+}
+
+.laboratory-block .block-header .pi-chevron-down.rotated,
+app-additional-methods .block-header .pi-chevron-down.rotated,
+app-blood-test .block-header .pi-chevron-down.rotated,
+app-biochemical-blood-test .block-header .pi-chevron-down.rotated,
+app-urine-test .block-header .pi-chevron-down.rotated {
+  transform: rotate(180deg) !important;
+}
+
+/* === Текст заголовка блока (Bold) === */
+.laboratory-block .block-header .block-title,
+app-additional-methods .block-header .block-title,
+app-blood-test .block-header .block-title,
+app-biochemical-blood-test .block-header .block-title,
+app-urine-test .block-header .block-title {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+  color: #262626 !important;
+  flex: 1 !important;
+}
+
+/* === СОДЕРЖИМОЕ БЛОКА === */
+.laboratory-block .block-content,
+app-additional-methods .block-content,
+app-blood-test .block-content,
+app-biochemical-blood-test .block-content,
+app-urine-test .block-content {
+  padding: 16px !important;
+  background: rgba(241, 245, 249, 0.5) !important;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+/* === Контейнер полей === */
+.laboratory-block .fields-container,
+app-additional-methods .fields-container,
+app-blood-test .fields-container,
+app-biochemical-blood-test .fields-container,
+app-urine-test .fields-container {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+
+/* === LABEL ПОЛЕЙ (Medium) === */
+.laboratory-block .field-label,
+app-additional-methods .field-label,
+app-blood-test .field-label,
+app-biochemical-blood-test .field-label,
+app-urine-test .field-label {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0% !important;
+  color: #020617 !important;
+  display: block !important;
+  margin-bottom: 8px !important;
+}
+
+/* === TEXTAREA И INPUT (Regular) === */
+.laboratory-block textarea,
+.laboratory-block input[type="text"],
+app-additional-methods textarea,
+app-additional-methods input[type="text"],
+app-blood-test textarea,
+app-blood-test input[type="text"],
+app-biochemical-blood-test textarea,
+app-biochemical-blood-test input[type="text"],
+app-urine-test textarea,
+app-urine-test input[type="text"] {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0% !important;
+  color: #020617 !important;
+  border: 1px solid #D1D5DB !important;
+  border-radius: 4px !important;
+  padding: 8px 12px !important;
+  background: #FFFFFF !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.2s ease !important;
+}
+
+/* === PLACEHOLDER (Regular, muted) === */
+.laboratory-block textarea::placeholder,
+.laboratory-block input::placeholder,
+app-additional-methods textarea::placeholder,
+app-additional-methods input::placeholder,
+app-blood-test textarea::placeholder,
+app-blood-test input::placeholder,
+app-biochemical-blood-test textarea::placeholder,
+app-biochemical-blood-test input::placeholder,
+app-urine-test textarea::placeholder,
+app-urine-test input::placeholder {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0% !important;
+  color: #64748B !important;
+}
+
+/* === ПОДСКАЗКИ ПОД ПОЛЯМИ (Regular, muted) === */
+.laboratory-block .field-hint,
+app-additional-methods .field-hint,
+app-blood-test .field-hint,
+app-biochemical-blood-test .field-hint,
+app-urine-test .field-hint {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0% !important;
+  color: #64748B !important;
+  display: block !important;
+  margin-top: 6px !important;
+}
+
+/* === СЕТКА ПОЛЕЙ (для blood-test) === */
+.laboratory-block .fields-grid,
+app-blood-test .fields-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 16px !important;
+}
+
+.laboratory-block .field-group,
+app-additional-methods .field-group,
+app-blood-test .field-group,
+app-biochemical-blood-test .field-group,
+app-urine-test .field-group {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.laboratory-block .field-group.full-width,
+app-blood-test .field-group.full-width {
+  grid-column: 1 / -1 !important;
+}
+
+/* === ЧЕКБОКС (для blood-test) === */
+.laboratory-block .checkbox-row,
+app-blood-test .checkbox-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.laboratory-block .checkbox-row .checkbox-label,
+app-blood-test .checkbox-row .checkbox-label {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #020617 !important;
+  cursor: pointer !important;
+}
+
+/* === ТЕКСТ-ЗАГЛУШКА (для пустых блоков) === */
+.laboratory-block .placeholder-text,
+app-biochemical-blood-test .placeholder-text,
+app-urine-test .placeholder-text {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #64748B !important;
+  text-align: center !important;
+  margin: 20px 0 !important;
+}
+
+/* === ФОКУС НА ПОЛЕ === */
+.laboratory-block textarea:focus,
+.laboratory-block input:focus,
+app-additional-methods textarea:focus,
+app-additional-methods input:focus,
+app-blood-test textarea:focus,
+app-blood-test input:focus,
+app-biochemical-blood-test textarea:focus,
+app-biochemical-blood-test input:focus,
+app-urine-test textarea:focus,
+app-urine-test input:focus {
+  outline: none !important;
+  border-color: #3B82F6 !important;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1) !important;
+}
+
+app-laboratory-data {
+  display: block;
+}
+
+.laboratory-data-form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}

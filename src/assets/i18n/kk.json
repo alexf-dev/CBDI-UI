@@ -304,6 +304,77 @@
           "BAIKONUR": "Байқоңыр бойынша тіркеу"
         }
       },
+      "EXPERT_EXAMINATION": {
+        "TITLE": "Сараптамалық тексеру",
+        "SAVE": "Сақтау",
+        "LABORATORY_DATA": {
+          "TITLE": "Зертханалық зерттеу деректері",
+          "ADDITIONAL_METHODS_SECTION": "Қосымша және зертханалық зерттеу әдістерінің деректері",
+          "KAG": "КАГ",
+          "XRAY": "Рентгенография",
+          "ULTRASOUND": "ДЗ/ДЗЗ",
+          "ABDOMINAL_ULTRASOUND": "Қуыс ағзаларының ДЗ",
+          "HEART_ULTRASOUND": "Жүректің ДЗ",
+          "ECG": "ЭКГ",
+          "EEG": "ЭЭГ",
+          "OTHER": "Басқа",
+          "BLOOD_TEST": "Жалпы қан талдауы",
+          "IN_NORMAL_RANGE": "Қалыпты шекте",
+          "ERYTHROCYTES": "Эритроциттер",
+          "HEMOGLOBIN": "Hb",
+          "COLOR_INDEX": "ТК/ТК",
+          "HEMATOCRIT": "Гематокрит",
+          "PLATELETS": "Тромбоциттер",
+          "LEUKOCYTES": "Лейкоциттер",
+          "BAND_NUCLEAR": "Таяқша ядролы",
+          "SEGMENTED_NUCLEAR": "Сегмент ядролы",
+          "EOSINOPHILS": "Эозинофилдер",
+          "BASOPHILS": "Базофилдер",
+          "LYMPHOCYTES": "Лимфоциттер",
+          "MONOCYTES": "Моноциттер",
+          "ESR": "СОЭ",
+          "BIOCHEMICAL_BLOOD_TEST": "Биохимиялық қан талдауы",
+          "URINE_TEST": "Жалпы зәр талдауы",
+          "SAVE": "Сақтау",
+          "ENTER_VALUE": "Енгізіңіз",
+          "HINT": {
+            "ERYTHROCYTES": "Ер. 4,0~5,1×10¹², Әйел. 3,7~4,7×10¹²",
+            "HEMOGLOBIN": "Ер. 130~160 г/л, Әйел. 120~140 г/л",
+            "COLOR_INDEX": "0,85~1,0",
+            "HEMATOCRIT": "Ер. 40~48%, Әйел. 36~42%",
+            "PLATELETS": "180~320×10⁹",
+            "LEUKOCYTES": "4,0~9,0×10⁹",
+            "BAND_NUCLEAR": "1~6%",
+            "SEGMENTED_NUCLEAR": "47~72%",
+            "EOSINOPHILS": "0,5~5%",
+            "BASOPHILS": "0~1%",
+            "LYMPHOCYTES": "19~37%",
+            "MONOCYTES": "3~11%",
+            "ESR": "Ер. 1~10 мм/сағ, Әйел. 2~15 мм/сағ"
+          }
+        },
+        "THERAPEUTIC_STATUS": {
+          "TITLE": "Терапевтический статус КАЗ"
+        },
+        "SPECIALISTS_CONCLUSION": {
+          "TITLE": "Заключение специалистов ЛПУ КАЗ"
+        },
+        "REHABILITATION_CONCLUSION": {
+          "TITLE": "Реабилитационно-экспертное заключение КАЗ"
+        },
+        "IIN_MERGE": {
+          "TITLE": "Объеденение ИИН КАЗ"
+        },
+        "SURGICAL_STATUS": {
+          "TITLE": "Хирургический статус КАЗ"
+        },
+        "NEUROLOGICAL_STATUS": {
+          "TITLE": "Неврологический статус КАЗ"
+        },
+        "OPHTHALMOLOGY_DATA": {
+          "TITLE": "Офтальмологические данные КАЗ"
+        }
+      },
       "EXPERT-CONCLUSION": {
         "GOAL": {
           "TITLE": "Куәландыру мақсаты:"
