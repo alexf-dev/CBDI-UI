@@ -1,12 +1,16 @@
 import { Component, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
+
 import { ButtonModule } from 'primeng/button';
+
 import { AdditionalMethodsComponent } from './components/additional-methods/additional-methods.component';
 import { BloodTestComponent } from './components/blood-test/blood-test.component';
 import { BiochemicalBloodTestComponent } from './components/biochemical-blood-test/biochemical-blood-test.component';
 import { UrineTestComponent } from './components/urine-test/urine-test.component';
+
 import { LaboratoryDataDTO } from './models/laboratory-data.models';
+import { isBlockExpandedByConfig } from '../../expert-examination.config';
 
 @Component({
   selector: 'app-laboratory-data',
@@ -29,6 +33,12 @@ export class LaboratoryDataComponent {
   @ViewChild(BiochemicalBloodTestComponent) biochemicalComponent!: BiochemicalBloodTestComponent;
   @ViewChild(UrineTestComponent) urineTestComponent!: UrineTestComponent;
 
+  /**
+   * Начальное раскрытие блоков при входе в форму.
+   * Логика и настройка — в expert-examination.config.ts.
+   */
+  public isBlockExpanded = isBlockExpandedByConfig;
+
   public getData(): LaboratoryDataDTO {
     return {
       additionalMethods: this.additionalMethodsComponent.getData(),
@@ -46,8 +56,6 @@ export class LaboratoryDataComponent {
   }
 
   public onSave(): void {
-    const data = this.getData();
-    console.log('LaboratoryDataDTO:', data);
-    // TODO: отправка на бэкенд через сервис
+    console.log('LaboratoryDataDTO:', this.getData());
   }
 }

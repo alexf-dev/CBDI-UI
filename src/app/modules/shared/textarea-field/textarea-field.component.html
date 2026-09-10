@@ -1,0 +1,8 @@
+<textarea
+  pInputTextarea
+  [rows]="rows"
+  [autoResize]="true"
+  [ngModel]="value"
+  (ngModelChange)="onValue($event)"
+  [placeholder]="placeholderKey | translate"
+></textarea>

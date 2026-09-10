@@ -458,6 +458,274 @@
             "TITLE": "Данные специалиста",
             "SPECIALIST": "Специалист"
           },
+          "DIGESTIVE_SYSTEM": {
+            "TITLE": "Система органов пищеварения",
+            "TONGUE": {
+              "TITLE": "Язык",
+              "MOIST": "Влажный",
+              "DRY": "Сухой",
+              "CLEAN": "Чистый",
+              "COATED": "Обложенный"
+            },
+            "ABDOMEN": {
+              "TITLE": "Живот",
+              "SOFT": "Мягкий",
+              "PAINLESS": "Безболезненный",
+              "TENSE": "Напряженный",
+              "NORMAL_SIZE": "Обычных размеров",
+              "DISTENDED": "Вздут",
+              "ENLARGED_DUE_TO_ASCITES": "Увеличен за счет асцита",
+              "ANTERIOR_VEINS_DILATATION": "Расширение вен передней брюшной стенки",
+              "PAINFUL": {
+                "TITLE": "Болезненный",
+                "IN_EPIGASTRIUM": "В эпигастрии",
+                "IN_RIGHT_HYPOCHONDRIUM": "В правом подреберье",
+                "IN_LEFT_HYPOCHONDRIUM": "В левом подреберье",
+                "AROUND_NAVEL": "Около пупка",
+                "ABOVE_PUBIS": "Над лобком",
+                "IN_RIGHT_ILIAC_REGION": "В правой подвздошной области",
+                "IN_LEFT_ILIAC_REGION": "В левой подвздошной области"
+              }
+            },
+            "LIVER": {
+              "TITLE": "Печень",
+              "NOT_PALPABLE": "Не пальпируется",
+              "ALONG_COSTAL_ARCH": "По краю рёберной дуги",
+              "PROTRUDES_FROM_RIGHT_HYPOCHONDRIUM": "Выступает из-под правого подреберья на",
+              "PAINFUL": "Болезненная",
+              "PAINLESS": "Безболезненная",
+              "MARGIN_TYPE": "Край печени",
+              "OPTIONS": {
+                "MARGIN_TYPE": {
+                  "SHARP": "Острый",
+                  "ROUNDED": "Закругленный",
+                  "SMOOTH": "Ровный",
+                  "SOFT": "Мягкий",
+                  "SCALLOPED": "Фестончатый",
+                  "DENSE": "Плотный"
+                }
+              }
+            },
+            "SPLEEN": {
+              "TITLE": "Селезенка",
+              "PALPABLE": "Пальпируется",
+              "NOT_PALPABLE": "Не пальпируется",
+              "DIMENSIONS": {
+                "TITLE": "Размеры",
+                "TRANSVERSE": "Поперечник",
+                "LONGITUDINAL": "Длинник"
+              }
+            },
+            "PHYSIOLOGICAL_FUNCTIONS": {
+              "TITLE": "Физиологические отправления",
+              "REGULAR": "Регулярные",
+              "CONSTIPATION_TENDENCY": "Склонность к запорам",
+              "DIARRHEA_TENDENCY": "Склонность к поносам"
+            }
+          },
+          "URINARY_SYSTEM": {
+            "TITLE": "Система мочеотделения",
+            "FREE_PAINLESS_URINATION": "Мочеиспускание свободное, безболезненное",
+            "PAINFUL_URINATION": "Болезненное мочеиспускание",
+            "URINARY_INCONTINENCE": "Недержание мочи",
+            "PERIPHERAL_VESSELS_PULSATION": "Пульсация периферических сосудов (a.dorsalis pedis)",
+            "LOCALIZED_EDEMA": {
+              "TITLE": "Отёки локализованы",
+              "ON_FACE": "На лице",
+              "ON_EYELIDS": "На веках",
+              "ON_TRUNK": "На туловище",
+              "ON_ABDOMEN": "На животе",
+              "ON_LEGS": "На ногах"
+            },
+            "DAILY_DIURESIS": {
+              "TITLE": "Суточный диурез",
+              "ADEQUATE": "Адекватный",
+              "POLYURIA": "Полиурия",
+              "OLIGURIA": "Олигурия",
+              "ANURIA": "Анурия",
+              "NOCTURIA": "Никтурия",
+              "ISCHURIA": "Ишурия",
+              "POLLAKIURIA": "Поллакиурия",
+              "ENURESIS": "Энурез"
+            },
+            "KIDNEYS": {
+              "TITLE": "Почки",
+              "PERCUSSION_SYMPTOM": {
+                "TITLE": "Симптом поколачивания",
+                "POSITIVE": "Положительный",
+                "NEGATIVE": "Отрицательный"
+              }
+            }
+          },
+          "CARDIOVASCULAR": {
+            "TITLE": "Сердечно сосудистая система",
+            "CARDIAC_HUMP": "Сердечный горб",
+            "APICAL_IMPULSE": "Верхушечный толчок",
+            "CARDIAC_IMPULSE": "Сердечный толчок",
+            "CAROTID_DANCE": "Пляска каротид",
+            "MUSSI_SYMPTOM": "Симптом Мюсси",
+            "CAPILLARY_PULSE": "Капиллярный пульс",
+            "VENOUS_PULSE": "Венный пульс",
+            "EPIGASTRIC_PULSATION": "Эпигастральная пульсация",
+            "PERIPHERAL_VESSELS_PULSATION": "Пульсация периферических сосудов",
+            "HEART_RATE": "Частота сердечных сокращений",
+            "FIRST_SOUND_SPLITTING": "Раздвоение первого тона",
+            "GALLOP_RHYTHM": "Ритм галопа",
+            "SYSTOLIC_MURMUR": "Систолический шум",
+            "SECOND_SOUND_SPLITTING": "Раздвоение второго тона",
+            "QUAIL_RHYTHM": "Ритм перепела",
+            "DIASTOLIC_MURMUR": "Диастолический шум",
+            "BLOOD_PRESSURE": "Артериальное давление",
+            "DYSPNEA": {
+              "TITLE": "Одышка",
+              "AT_REST": "В покое",
+              "ON_PHYSICAL_LOAD": "При физической нагрузке",
+              "ON_EXCITEMENT": "При волнении"
+            },
+            "CAT_PURR": {
+              "TITLE": "Кошачье мурлыканье",
+              "OVER_HEART_APEX": "Над верхушкой сердца",
+              "OVER_AORTA": "Над аортой",
+              "OVER_PULMONARY_ARTERY": "Над лёгочной артерией"
+            },
+            "HEART_BORDERS": {
+              "TITLE": "Границы относительной тупости сердца",
+              "WITHIN_NORMAL_RANGE": "В пределах нормы",
+              "UPPER": "Верхняя",
+              "RIGHT": "Правая",
+              "LEFT": "Левая"
+            },
+            "HEART_SOUNDS": {
+              "TITLE": "Тоны сердца",
+              "CLEAR": "Ясные",
+              "MUFFLED": "Глухие",
+              "ACCENT_II_ON_PULMONARY_ARTERY": "Акцент II тона на лёгочной артерии",
+              "SYSTOLIC_MURMUR": "Систолический шум",
+              "SUBDUED": "Приглушены",
+              "ACCENT_II_ON_AORTA": "Акцент II тона на аорте",
+              "RHYTHMIC": "Ритмичные",
+              "DIASTOLIC_MURMUR": "Диастолический шум"
+            },
+            "ARRHYTHMIA": {
+              "TITLE": "Аритмия",
+              "TACHYCARDIA": "Тахикардия",
+              "BRADYCARDIA": "Брадикардия",
+              "EXTRASYSTOLE": "Экстрасистолия",
+              "ATRIAL_FIBRILLATION": "Мерцательная аритмия",
+              "PAROXYSMAL_TACHYCARDIA": "Пароксизмальная тахикардия"
+            },
+            "PULSE": {
+              "TITLE": "Пульс",
+              "RHYTHMIC": "Ритмичный",
+              "ARRHYTHMIC": "Аритмичный",
+              "RATE_PER_MINUTE": "Частота (в мин)"
+            }
+          },
+          "RESPIRATORY_SYSTEM": {
+            "TITLE": "Система органов дыхания",
+            "APHONIA": "Афония",
+            "HOARSENESS": "Охриплость голоса",
+            "HUSKINESS": "Осиплость голоса",
+            "NASAL_VOICE": "Гнусавость",
+            "NASAL_BREATHING": "Дыхание через нос",
+            "OPEN_MOUTH_BREATHING": "Дыхание открытым ртом",
+            "NASAL_WINGS_PARTICIPATION": "Активное участие крыльев носа",
+            "ACCESSORY_MUSCLES_PARTICIPATION": "В акте дыхания участвует вспомогательная мускулатура",
+            "RESPIRATORY_RATE": "Частота дыхания в минуту",
+            "THORAX_TYPE": "Грудная клетка",
+            "DYSPNEA_TYPE": "Одышка",
+            "SUFFOCATION": "Удушье",
+            "OPTIONS": {
+              "THORAX_TYPE": {
+                "ASYMMETRIC": "Асимметричная",
+                "REGULAR": "Правильной формы",
+                "BARREL": "Бочкообразная",
+                "EMPHYSEMATOUS": "Эмфизематозная",
+                "RACHITIC": "Рахитическая",
+                "FUNNEL": "Воронкообразная",
+                "KEEL": "Килевидная",
+                "PARALYTIC": "Паралитическая"
+              },
+              "DYSPNEA_TYPE": {
+                "INSPIRATORY": "Инспираторная",
+                "EXPIRATORY": "Экспираторная",
+                "MIXED": "Смешанная"
+              }
+            },
+            "PERCUSSION": {
+              "TITLE": "Перкуторно над легкими",
+              "CLEAR_PULMONARY": "Ясный легочный звук",
+              "DULL_SOUND": "Притупленный звук",
+              "TYMPANIC_SOUND": "Тимпанический звук",
+              "FLAT_SOUND": "Тупой звук",
+              "BOX_SOUND": "Коробочный звук"
+            },
+            "BREATHING": {
+              "TITLE": "Дыхание над легкими",
+              "VESICULAR": "Везикулярное",
+              "BRONCHIAL": "Бронхиальное",
+              "HARSH": "Жёсткое",
+              "DRY_RALES": "Сухие хрипы",
+              "CREPITATION": "Крепитация",
+              "WEAKENING": "Ослабление",
+              "MIXED": "Смешанное",
+              "NO_RALES": "Хрипов нет",
+              "MOIST_RALES": "Влажные хрипы",
+              "PLEURAL_FRICTION_RUB": "Шум трения плевры",
+              "COUGH_CHARACTER": {
+                "TITLE": "Характер",
+                "DRY": "Сухой",
+                "MOIST_NON_PRODUCTIVE": "Влажный непродуктивный",
+                "MOIST_PRODUCTIVE": "Влажный продуктивный"
+              },
+              "COUGH_TIMING": {
+                "TITLE": "Время появления кашля",
+                "MORNING": "Утром",
+                "EVENING": "Вечером",
+                "NIGHT": "Ночью"
+              },
+              "SPUTUM_AMOUNT": "Количество мокроты",
+              "SPUTUM_CHARACTER": {
+                "TITLE": "Характер мокроты",
+                "MUCOUS": "Слизистая",
+                "SEROUS": "Серозная",
+                "PURULENT": "Гнойная",
+                "MUCOPURULENT": "Слизисто-гнойная",
+                "SEROPURULENT": "Серозно-гнойная",
+                "BLOODY_STREAKS": "Кровянистая в виде прожилок крови",
+                "BLOODY_CLOTS": "В виде кровянистых сгустков",
+                "RUSTY": "Ржавая"
+              },
+              "SPUTUM_COLOR": {
+                "TITLE": "Цвет мокроты",
+                "COLORLESS": "Бесцветная",
+                "WHITISH_MUCOUS": "Беловато-слизистая",
+                "GREENISH": "Зеленоватая",
+                "YELLOW": "Желтая",
+                "BROWN": "Коричневая",
+                "PINK": "Розовая"
+              },
+              "SPUTUM_ODOR": {
+                "TITLE": "Запах мокроты",
+                "ABSENT": "Отсутствует",
+                "MUSTY": "Затхлый",
+                "PUTRID": "Гнилостный",
+                "FOUL": "Зловонный"
+              },
+              "HEMOPTYSIS": {
+                "TITLE": "Кровохарканье",
+                "CONSTANT": "Постоянное",
+                "RARE": "Редкое",
+                "FREQUENT": "Часто повторяющееся"
+              },
+              "HEMOPTYSIS_SEVERITY": {
+                "TITLE": "Кровохарканье выраженно",
+                "SIGNIFICANT": "Значительно",
+                "MODERATE": "Умеренно",
+                "INSIGNIFICANT": "Незначительно"
+              }
+            }
+          },
           "CONDITION": {
             "TITLE": "Состояние",
             "NO_ORGAN_PATHOLOGY": "По внутренним органам без патологии",
@@ -505,6 +773,139 @@
             "RASHES": "Сыпи",
             "MOIST_SKIN": "Кожа влажная",
             "SKIN_TURGOR": "Тургор кожи"
+          },
+          "PHARYNX": {
+            "TITLE": "Зев",
+            "PINK_CLEAN": "Розовый чистый",
+            "LOOSE": "Рыхлый",
+            "HYPEREMIC": "Гиперемирован"
+          },
+          "HAIR_NAILS": {
+            "TITLE": "Волосы/ногти",
+            "MALE_PATTERN_HAIR": "Оволосение по мужскому типу",
+            "SPLIT_ENDS": "Волосы секутся",
+            "BRITTLE_NAILS": "Ногти ломкие",
+            "FEMALE_PATTERN_HAIR": "Оволосение по женскому типу",
+            "HAIR_LOSS": "Выпадение волос"
+          },
+          "SUBCUTANEOUS_FAT": {
+            "TITLE": "Подкожно-жировая клетчатка",
+            "WEAKLY_DEVELOPED": "Развита слабо",
+            "MODERATELY_DEVELOPED": "Умеренно развита",
+            "EXCESSIVELY_DEVELOPED": "Чрезмерно развита",
+            "PASTINESS": "Пастозность"
+          },
+          "LYMPH_NODES": {
+            "TITLE": "Периферические лимфатические узлы",
+            "MAIN_SIGNS": "Основные признаки",
+            "NOT_ENLARGED": "Не увеличены",
+            "PAINLESS": "Безболезненные",
+            "ENLARGED": {
+              "TITLE": "Увеличены",
+              "SUBMANDIBULAR": "Подчелюстные",
+              "CERVICAL": "Шейные",
+              "SUPRACLAVICULAR": "Надключичные",
+              "INFRACLAVICULAR": "Подключичные",
+              "AXILLARY": "Подмышечные",
+              "ELBOW": "Локтевые"
+            },
+            "ADDITIONAL_SIGNS": "Доп признаки",
+            "PAINFUL": "Болезненные",
+            "NOT_MATTED": "Не спаяны",
+            "MATTED": "Спаянные"
+          },
+          "MUSCULOSKELETAL": {
+            "TITLE": "Опорно-двигательный аппарат",
+            "VISUALLY_UNCHANGED": "Визуально не изменен",
+            "JOINTS": {
+              "TITLE": "Суставы",
+              "ENLARGED_IN_VOLUME": "Сустав увеличен в объёме",
+              "DEFORMATION": "Деформация суставов",
+              "SPINDLE_SHAPED": "Сустав веретенообразной формы",
+              "PAIN_ON_PALPATION": "Болезненность при ощупывании",
+              "LIMITED_RANGE_OF_MOTION": "Объем движений ограничен",
+              "FLUCTUATION": "Флюктуация",
+              "LAMENESS": "Хромота",
+              "INGUINAL_FOLDS_SMOOTHED": "Паховые и ягодичные складки сглажены",
+              "THIGH_ADDUCTED_AND_FLEXED": "Бедро приведено и согнуто",
+              "ANKYLOSES": "Анкилозы"
+            },
+            "JOINT_CONFIGURATION": {
+              "TITLE": "Конфигурация/кожа/движения",
+              "NORMAL_CONFIGURATION": "Суставы нормальной конфигурации",
+              "SKIN_SHINY": "Кожа над суставом блестящая",
+              "CONTOURS_SMOOTHED": "Контуры сустава сглажены",
+              "SWELLING": "Припухлость суставов",
+              "PAIN_ON_TAPPING": "Болезненность при поколачивании",
+              "DRUMSTICK_FINGERS": "Барабанные пальцы",
+              "MOVEMENTS_FULL_RANGE": "Движения в полном объеме",
+              "CREPITUS": "Хруст",
+              "CONTRACTURES": "Контрактуры",
+              "PATELLA_BALLOTTEMENT": "Симптом баллотирования надколенника",
+              "LEG_DRAGGING": "Подтягивание ноги при ходьбе",
+              "LEG_FORCED_POSITION": "Вынужденное положение ноги",
+              "LEG_BENT_AT_KNEE": "Нога согнута в коленном суставе"
+            },
+            "SPINE": {
+              "TITLE": "Позвоночник",
+              "PAIN_ON_BENDING": "Боли при наклоне туловища",
+              "LIMITED_MOVEMENT": "Ограничение движений позвоночного столба",
+              "SPINOUS_PROCESS_PROTRUSION": "Выступание остистого отростка",
+              "HUMP": "Горб",
+              "COLD_ABSCESSES": "Натёчные абсцессы",
+              "FISTULAS": "Свищи",
+              "REIN_SYMPTOM": "Симптом вожже",
+              "DEFORMATION_TYPE": "Искривление позвоночника по типу",
+              "OPTIONS": {
+                "DEFORMATION_TYPE": {
+                  "LORDOSIS": "Лордоз",
+                  "KYPHOSIS": "Кифоз",
+                  "SCOLIOSIS": "Сколиоз",
+                  "KYPHOSCOLIOSIS": "Кифосколиоз"
+                }
+              }
+            }
+          },
+          "MUSCULAR_SYSTEM": {
+            "TITLE": "Мышечная система",
+            "DEVELOPMENT": {
+              "TITLE": "Степень развития мышц",
+              "WEAKLY_DEVELOPED": "Развита слабо",
+              "SATISFACTORILY_DEVELOPED": "Развита удовлетворительно",
+              "WELL_DEVELOPED": "Хорошо развита"
+            },
+            "TROPHIC": {
+              "TITLE": "Мышечный трофик",
+              "ATROPHY": "Атрофия мышц",
+              "HYPERTROPHY": "Гипертрофия мышц"
+            },
+            "TONE": {
+              "TITLE": "Мышечный тонус",
+              "HYPOTONIA": "Гипотонус",
+              "HYPERTONIA": "Гипертонус",
+              "MYOTONIA": "Миотония"
+            }
+          },
+          "BONE_MUSCLE_SYSTEM": {
+            "TITLE": "Костно-мышечная система",
+            "NO_DEFORMATIONS": "Без деформаций",
+            "DEFORMATION": "Деформация",
+            "DOLICHOCEPHALIC": "Форма головы долихоцефалическая",
+            "BRACHYCEPHALIC": "Форма головы брахицефалическая",
+            "TOWER_SKULL": "Башенный череп",
+            "MESOCRANIA": "Мезокрания",
+            "MICROCEPHALY": "Микроцефалия",
+            "HYDROCEPHALY": "Гидроцефалия",
+            "CRANIOSTENOSIS": "Краниостеноз",
+            "LARGE_FONTANEL": "Большой родничок"
+          },
+          "THYROID_GLAND": {
+            "TITLE": "Щитовидная железа",
+            "NOT_PALPABLE": "Не пальпируется",
+            "ENLARGED": "Увеличена",
+            "PAINLESS": "Безболезненная",
+            "PAINFUL": "Болезненная",
+            "NECK_SHAPE": "Форма шеи"
           }
         },
         "SPECIALISTS_CONCLUSION": {

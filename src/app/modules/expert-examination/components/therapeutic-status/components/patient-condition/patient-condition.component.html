@@ -1,0 +1,24 @@
+<app-collapsible-block [titleKey]="translationPrefix + 'CONDITION.TITLE'" [isExpanded]="isExpanded">
+  <app-check-field
+    [labelKey]="translationPrefix + 'CONDITION.NO_ORGAN_PATHOLOGY'"
+    [(checked)]="model.noOrganPathology">
+  </app-check-field>
+
+  <app-dropdown-field
+    [labelKey]="translationPrefix + 'CONDITION.GENERAL_STATUS'"
+    [optionKeys]="generalStatusOptions"
+    [(value)]="model.generalStatus">
+  </app-dropdown-field>
+
+  <app-dropdown-field
+    [labelKey]="translationPrefix + 'CONDITION.PATIENT_POSITION'"
+    [optionKeys]="positionOptions"
+    [(value)]="model.patientPosition">
+  </app-dropdown-field>
+
+  <app-dropdown-field
+    [labelKey]="translationPrefix + 'CONDITION.BODY_TYPE'"
+    [optionKeys]="bodyTypeOptions"
+    [(value)]="model.bodyType">
+  </app-dropdown-field>
+</app-collapsible-block>

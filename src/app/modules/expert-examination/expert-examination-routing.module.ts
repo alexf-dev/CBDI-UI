@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ExpertExaminationComponent } from './expert-examination.component';
 import {LaboratoryDataComponent} from "./components/laboratory-data/laboratory-data.component";
+import {TherapeuticStatusComponent} from "./components/therapeutic-status/therapeutic-status.component";
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
       {
         path: 'laboratory-data',
         component: LaboratoryDataComponent
+      },
+      {
+        path: 'therapeutic-status',
+        component: TherapeuticStatusComponent
       },
       // Здесь будут другие роуты для подменю
       {

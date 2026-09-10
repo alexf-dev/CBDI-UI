@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
@@ -70,11 +70,12 @@ const MOCK_BLOOD_TEST: BloodTestDTO = {
 })
 export class BloodTestComponent implements OnInit {
   public form: FormGroup;
-  public isExpanded = true;
   public isBloodTestNormal = false;
 
   /** Конфигурация полей для *ngFor */
   public bloodFields = BLOOD_FIELDS_CONFIG;
+
+  @Input() public isExpanded = true;
 
   constructor(private fb: FormBuilder) {}
 

@@ -460,6 +460,274 @@
             "TITLE": "Маманның деректері",
             "SPECIALIST": "Маман"
           },
+          "DIGESTIVE_SYSTEM": {
+            "TITLE": "Ас қорыту жүйесі",
+            "TONGUE": {
+              "TITLE": "Тіл",
+              "MOIST": "Ылғалды",
+              "DRY": "Құрғақ",
+              "CLEAN": "Таза",
+              "COATED": "Қақ жабылған"
+            },
+            "ABDOMEN": {
+              "TITLE": "Іш",
+              "SOFT": "Жұмсақ",
+              "PAINLESS": "Ауырсынусыз",
+              "TENSE": "Керілген",
+              "NORMAL_SIZE": "Қалыпты көлемде",
+              "DISTENDED": "Кебіңкі",
+              "ENLARGED_DUE_TO_ASCITES": "Асцит есебінен ұлғайған",
+              "ANTERIOR_VEINS_DILATATION": "Құрсақтың алдыңғы қабырғасы веналарының кеңеюі",
+              "PAINFUL": {
+                "TITLE": "Ауырсынатын",
+                "IN_EPIGASTRIUM": "Эпигастрий аймағында",
+                "IN_RIGHT_HYPOCHONDRIUM": "Оң қабырға астында",
+                "IN_LEFT_HYPOCHONDRIUM": "Сол қабырға астында",
+                "AROUND_NAVEL": "Кіндік маңында",
+                "ABOVE_PUBIS": "Қасаға үстінде",
+                "IN_RIGHT_ILIAC_REGION": "Оң мықын аймағында",
+                "IN_LEFT_ILIAC_REGION": "Сол мықын аймағында"
+              }
+            },
+            "LIVER": {
+              "TITLE": "Бауыр",
+              "NOT_PALPABLE": "Пальпацияланбайды",
+              "ALONG_COSTAL_ARCH": "Қабырға доғасының жиегі бойымен",
+              "PROTRUDES_FROM_RIGHT_HYPOCHONDRIUM": "Оң қабырға астынан шығып тұрады",
+              "PAINFUL": "Ауырсынатын",
+              "PAINLESS": "Ауырсынусыз",
+              "MARGIN_TYPE": "Бауыр жиегі",
+              "OPTIONS": {
+                "MARGIN_TYPE": {
+                  "SHARP": "Үшкір",
+                  "ROUNDED": "Дөңгелектенген",
+                  "SMOOTH": "Тегіс",
+                  "SOFT": "Жұмсақ",
+                  "SCALLOPED": "Ойықты",
+                  "DENSE": "Тығыз"
+                }
+              }
+            },
+            "SPLEEN": {
+              "TITLE": "Көкбауыр",
+              "PALPABLE": "Пальпацияланады",
+              "NOT_PALPABLE": "Пальпацияланбайды",
+              "DIMENSIONS": {
+                "TITLE": "Өлшемдері",
+                "TRANSVERSE": "Диаметрі",
+                "LONGITUDINAL": "Ұзындығы"
+              }
+            },
+            "PHYSIOLOGICAL_FUNCTIONS": {
+              "TITLE": "Физиологиялық функциялары",
+              "REGULAR": "Үнемі",
+              "CONSTIPATION_TENDENCY": "Іш қатуға бейімділік",
+              "DIARRHEA_TENDENCY": "Диареяға бейімділік"
+            }
+          },
+          "URINARY_SYSTEM": {
+            "TITLE": "Зәр шығару жүйесі",
+            "FREE_PAINLESS_URINATION": "Зәр шығару еркін, ауыртпалықсыз",
+            "PAINFUL_URINATION": "Ауырсынумен зәр шығару",
+            "URINARY_INCONTINENCE": "Зәрді ұстай алмау",
+            "PERIPHERAL_VESSELS_PULSATION": "Шеткері тамырлардың пульсациясы (a.dorsalis pedis)",
+            "LOCALIZED_EDEMA": {
+              "TITLE": "Жергілікті ісіну",
+              "ON_FACE": "Бетте",
+              "ON_EYELIDS": "Қабақтарда",
+              "ON_TRUNK": "Денеде",
+              "ON_ABDOMEN": "Іште",
+              "ON_LEGS": "Аяқтарда"
+            },
+            "DAILY_DIURESIS": {
+              "TITLE": "Күнделікті зәр шығару",
+              "ADEQUATE": "Жеткілікті",
+              "POLYURIA": "Полиурия",
+              "OLIGURIA": "Олигурия",
+              "ANURIA": "Анурия",
+              "NOCTURIA": "Никтурия",
+              "ISCHURIA": "Ишурия",
+              "POLLAKIURIA": "Поллакиурия",
+              "ENURESIS": "Энурез"
+            },
+            "KIDNEYS": {
+              "TITLE": "Бүйрек",
+              "PERCUSSION_SYMPTOM": {
+                "TITLE": "Сұқтау симптомы",
+                "POSITIVE": "Оң",
+                "NEGATIVE": "Теріс"
+              }
+            }
+          },
+          "CARDIOVASCULAR": {
+            "TITLE": "Жүрек-қантамыр жүйесі",
+            "CARDIAC_HUMP": "Жүрек бүкірі",
+            "APICAL_IMPULSE": "Жүрек ұшы түрткісі",
+            "CARDIAC_IMPULSE": "Жүрек түрткісі",
+            "CAROTID_DANCE": "Каротидтер биі",
+            "MUSSI_SYMPTOM": "Мюссе симптомы",
+            "CAPILLARY_PULSE": "Капиллярлық пульс",
+            "VENOUS_PULSE": "Веналық пульс",
+            "EPIGASTRIC_PULSATION": "Эпигастрий аймағындағы пульсация",
+            "PERIPHERAL_VESSELS_PULSATION": "Перифериялық тамырлардың пульсациясы",
+            "HEART_RATE": "Жүректің жиырылу жиілігі",
+            "FIRST_SOUND_SPLITTING": "Бірінші тонның екіге бөлінуі",
+            "GALLOP_RHYTHM": "Галоп ырғағы",
+            "SYSTOLIC_MURMUR": "Систолалық шу",
+            "SECOND_SOUND_SPLITTING": "Екінші тонның екіге бөлінуі",
+            "QUAIL_RHYTHM": "Бөдене ырғағы",
+            "DIASTOLIC_MURMUR": "Диастолалық шу",
+            "BLOOD_PRESSURE": "Артериялық қысым",
+            "DYSPNEA": {
+              "TITLE": "Ентігу",
+              "AT_REST": "Тыныштықта",
+              "ON_PHYSICAL_LOAD": "Дене жүктемесі кезінде",
+              "ON_EXCITEMENT": "Толқу кезінде"
+            },
+            "CAT_PURR": {
+              "TITLE": "Мысық пырылы",
+              "OVER_HEART_APEX": "Жүрек ұшы үстінде",
+              "OVER_AORTA": "Аорта үстінде",
+              "OVER_PULMONARY_ARTERY": "Өкпе артериясы үстінде"
+            },
+            "HEART_BORDERS": {
+              "TITLE": "Жүректің салыстырмалы тұйықтық шекаралары",
+              "WITHIN_NORMAL_RANGE": "Қалыпты шектерде",
+              "UPPER": "Жоғарғы",
+              "RIGHT": "Оң",
+              "LEFT": "Сол"
+            },
+            "HEART_SOUNDS": {
+              "TITLE": "Жүрек тондары",
+              "CLEAR": "Ашық",
+              "MUFFLED": "Тұйық",
+              "ACCENT_II_ON_PULMONARY_ARTERY": "Өкпе артериясындағы II тон акценті",
+              "SYSTOLIC_MURMUR": "Систолалық шу",
+              "SUBDUED": "Бәсеңдеген",
+              "ACCENT_II_ON_AORTA": "Аортадағы II тон акценті",
+              "RHYTHMIC": "Ырғақты",
+              "DIASTOLIC_MURMUR": "Диастолалық шу"
+            },
+            "ARRHYTHMIA": {
+              "TITLE": "Аритмия",
+              "TACHYCARDIA": "Тахикардия",
+              "BRADYCARDIA": "Брадикардия",
+              "EXTRASYSTOLE": "Экстрасистолия",
+              "ATRIAL_FIBRILLATION": "Жыпылық аритмия",
+              "PAROXYSMAL_TACHYCARDIA": "Пароксизмді тахикардия"
+            },
+            "PULSE": {
+              "TITLE": "Пульс",
+              "RHYTHMIC": "Ырғақты",
+              "ARRHYTHMIC": "Ырғақсыз",
+              "RATE_PER_MINUTE": "Жиілігі (минутына)"
+            }
+          },
+          "RESPIRATORY_SYSTEM": {
+            "TITLE": "Тыныс алу жүйесі",
+            "APHONIA": "Афония",
+            "HOARSENESS": "Дауыс қарлығуы",
+            "HUSKINESS": "Дауыс қырылдауы",
+            "NASAL_VOICE": "Мыңқылдап сөйлеу",
+            "NASAL_BREATHING": "Мұрын арқылы тыныс алу",
+            "OPEN_MOUTH_BREATHING": "Ауызды ашып тыныс алу",
+            "NASAL_WINGS_PARTICIPATION": "Мұрын қанаттарының тыныс алуға белсенді қатысуы",
+            "ACCESSORY_MUSCLES_PARTICIPATION": "Тыныс алу актісіне қосымша бұлшықеттер қатысады",
+            "RESPIRATORY_RATE": "Минутына тыныс алу жиілігі",
+            "THORAX_TYPE": "Кеуде қуысы",
+            "DYSPNEA_TYPE": "Ентігу",
+            "SUFFOCATION": "Тұншығу",
+            "OPTIONS": {
+              "THORAX_TYPE": {
+                "ASYMMETRIC": "Асимметриялы",
+                "REGULAR": "Дұрыс пішінді",
+                "BARREL": "Бөшке тәрізді",
+                "EMPHYSEMATOUS": "Эмфизематозды",
+                "RACHITIC": "Рахиттік",
+                "FUNNEL": "Шұңқыр тәрізді",
+                "KEEL": "Қыр тәрізді",
+                "PARALYTIC": "Паралитикалық"
+              },
+              "DYSPNEA_TYPE": {
+                "INSPIRATORY": "Инспираторлық",
+                "EXPIRATORY": "Экспираторлық",
+                "MIXED": "Аралас"
+              }
+            },
+            "PERCUSSION": {
+              "TITLE": "Өкпелер үстінен перкуссия кезінде",
+              "CLEAR_PULMONARY": "Ашық өкпелік дыбыс",
+              "DULL_SOUND": "Тұйықталған дыбыс",
+              "TYMPANIC_SOUND": "Тимпаникалық дыбыс",
+              "FLAT_SOUND": "Тұйық дыбыс",
+              "BOX_SOUND": "Қораптық дыбыс"
+            },
+            "BREATHING": {
+              "TITLE": "Өкпелер үстіндегі тыныс",
+              "VESICULAR": "Везикулярлық",
+              "BRONCHIAL": "Бронхтық",
+              "HARSH": "Қатаң",
+              "DRY_RALES": "Құрғақ сырылдар",
+              "CREPITATION": "Крепитация",
+              "WEAKENING": "Әлсіреген",
+              "MIXED": "Аралас",
+              "NO_RALES": "Сырылдар жоқ",
+              "MOIST_RALES": "Ылғалды сырылдар",
+              "PLEURAL_FRICTION_RUB": "Плевра үйкеліс шуы",
+              "COUGH_CHARACTER": {
+                "TITLE": "Сипаты",
+                "DRY": "Құрғақ",
+                "MOIST_NON_PRODUCTIVE": "Ылғалды өнімсіз",
+                "MOIST_PRODUCTIVE": "Ылғалды өнімді"
+              },
+              "COUGH_TIMING": {
+                "TITLE": "Жөтелдің пайда болу уақыты",
+                "MORNING": "Таңертең",
+                "EVENING": "Кешке",
+                "NIGHT": "Түнде"
+              },
+              "SPUTUM_AMOUNT": "Қақырық мөлшері",
+              "SPUTUM_CHARACTER": {
+                "TITLE": "Қақырық сипаты",
+                "MUCOUS": "Шырышты",
+                "SEROUS": "Серозды",
+                "PURULENT": "Іріңді",
+                "MUCOPURULENT": "Шырышты-іріңді",
+                "SEROPURULENT": "Серозды-іріңді",
+                "BLOODY_STREAKS": "Қан жолақтары түріндегі қанды",
+                "BLOODY_CLOTS": "Қанды ұйындылар түрінде",
+                "RUSTY": "Тот түсті"
+              },
+              "SPUTUM_COLOR": {
+                "TITLE": "Қақырық түсі",
+                "COLORLESS": "Түссіз",
+                "WHITISH_MUCOUS": "Ақшыл-шырышты",
+                "GREENISH": "Жасылдау",
+                "YELLOW": "Сары",
+                "BROWN": "Қоңыр",
+                "PINK": "Қызғылт"
+              },
+              "SPUTUM_ODOR": {
+                "TITLE": "Қақырық иісі",
+                "ABSENT": "Жоқ",
+                "MUSTY": "Көгерген иісті",
+                "PUTRID": "Шіріген иісті",
+                "FOUL": "Сасық иісті"
+              },
+              "HEMOPTYSIS": {
+                "TITLE": "Қан түкіру",
+                "CONSTANT": "Тұрақты",
+                "RARE": "Сирек",
+                "FREQUENT": "Жиі қайталанатын"
+              },
+              "HEMOPTYSIS_SEVERITY": {
+                "TITLE": "Қан түкірудің айқындылығы",
+                "SIGNIFICANT": "Айқын",
+                "MODERATE": "Орташа",
+                "INSIGNIFICANT": "Болмашы"
+              }
+            }
+          },
           "CONDITION": {
             "TITLE": "Жай-күйі",
             "NO_ORGAN_PATHOLOGY": "Ішкі ағзаларда патологиялар жоқ",
@@ -507,6 +775,139 @@
             "RASHES": "Бөртпелер",
             "MOIST_SKIN": "Ылғал тері",
             "SKIN_TURGOR": "Тері тургоры"
+          },
+          "PHARYNX": {
+            "TITLE": "Жұтқыншақ",
+            "PINK_CLEAN": "Мөлдір қызғылт",
+            "LOOSE": "Бос",
+            "HYPEREMIC": "Гиперемиялық"
+          },
+          "HAIR_NAILS": {
+            "TITLE": "Шаш/тырнақтар",
+            "MALE_PATTERN_HAIR": "Еркек шаш үлгісіндегі шаш өсуі",
+            "SPLIT_ENDS": "Шаш ұштарының бөлінуі",
+            "BRITTLE_NAILS": "Тырнақтардың сынғыштығы",
+            "FEMALE_PATTERN_HAIR": "Әйел шаш үлгісіндегі шаш өсуі",
+            "HAIR_LOSS": "Шаштың түсуі"
+          },
+          "SUBCUTANEOUS_FAT": {
+            "TITLE": "Тері астындағы май тіні",
+            "WEAKLY_DEVELOPED": "Нашар дамыған",
+            "MODERATELY_DEVELOPED": "Орташа дамыған",
+            "EXCESSIVELY_DEVELOPED": "Аса дамыған",
+            "PASTINESS": "Пастоздылық"
+          },
+          "LYMPH_NODES": {
+            "TITLE": "Перифериялық лимфа түйіндері",
+            "MAIN_SIGNS": "Негізгі белгілері",
+            "NOT_ENLARGED": "Үлкейтілмеген",
+            "PAINLESS": "Ауырсынусыз",
+            "ENLARGED": {
+              "TITLE": "Үлкейтілген",
+              "SUBMANDIBULAR": "Жақасты",
+              "CERVICAL": "Мойын",
+              "SUPRACLAVICULAR": "Бұғанаүсті",
+              "INFRACLAVICULAR": "Бұғанаасты",
+              "AXILLARY": "Қолтықасты",
+              "ELBOW": "Шынтақ"
+            },
+            "ADDITIONAL_SIGNS": "Қосымша белгілер",
+            "PAINFUL": "Ауырсындыратын",
+            "NOT_MATTED": "Дәнекерленбеген",
+            "MATTED": "Дәнекерленген"
+          },
+          "MUSCULOSKELETAL": {
+            "TITLE": "Тірек-қимыл аппараты",
+            "VISUALLY_UNCHANGED": "Сырттай қарағанда өзгермеген",
+            "JOINTS": {
+              "TITLE": "Буындар",
+              "ENLARGED_IN_VOLUME": "Буын көлемі ұлғайған",
+              "DEFORMATION": "Буындардың деформациясы",
+              "SPINDLE_SHAPED": "Буынның пішіні ұршық тәрізді",
+              "PAIN_ON_PALPATION": "Сипап қарағанда ауырсыну",
+              "LIMITED_RANGE_OF_MOTION": "Қозғалыс көлемі шектелген",
+              "FLUCTUATION": "Флюктуация",
+              "LAMENESS": "Ақсаңдау",
+              "INGUINAL_FOLDS_SMOOTHED": "Шап және бөксе қатпарлары тегістелген",
+              "THIGH_ADDUCTED_AND_FLEXED": "Сан ішке қарай тартылған және бүгілген",
+              "ANKYLOSES": "Анкилоздар"
+            },
+            "JOINT_CONFIGURATION": {
+              "TITLE": "Конфигурациясы / тері жағдайы / қозғалысы",
+              "NORMAL_CONFIGURATION": "Буындардың конфигурациясы қалыпты",
+              "SKIN_SHINY": "Буын үстіндегі тері жылтыр",
+              "CONTOURS_SMOOTHED": "Буын контурлары тегістелген",
+              "SWELLING": "Буындардың ісінуі",
+              "PAIN_ON_TAPPING": "Түрткен кезде ауырсыну",
+              "DRUMSTICK_FINGERS": "Барабан тәрізді саусақтар",
+              "MOVEMENTS_FULL_RANGE": "Қимыл көлемі толық",
+              "CREPITUS": "Сықырлау",
+              "CONTRACTURES": "Контрактуралар",
+              "PATELLA_BALLOTTEMENT": "Тізе тобығының баллотирлеу симптомы",
+              "LEG_DRAGGING": "Жүру кезінде аяғын тартып басу",
+              "LEG_FORCED_POSITION": "Аяқтың мәжбүрлі қалпы",
+              "LEG_BENT_AT_KNEE": "Аяқ тізе буынында бүгілген"
+            },
+            "SPINE": {
+              "TITLE": "Омыртқа",
+              "PAIN_ON_BENDING": "Дене еңкейгенде ауырсыну",
+              "LIMITED_MOVEMENT": "Омыртқа қозғалысының шектелуі",
+              "SPINOUS_PROCESS_PROTRUSION": "Қылқанды өсіндінің шығыңқы болуы",
+              "HUMP": "Өркеші",
+              "COLD_ABSCESSES": "Суық абсцесстер",
+              "FISTULAS": "Жыланкөз",
+              "REIN_SYMPTOM": "Вожжей симптомы",
+              "DEFORMATION_TYPE": "Омыртқаның қисаю түрі",
+              "OPTIONS": {
+                "DEFORMATION_TYPE": {
+                  "LORDOSIS": "Лордоз",
+                  "KYPHOSIS": "Кифоз",
+                  "SCOLIOSIS": "Сколиоз",
+                  "KYPHOSCOLIOSIS": "Кифосколиоз"
+                }
+              }
+            }
+          },
+          "MUSCULAR_SYSTEM": {
+            "TITLE": "Бұлшықет жүйесі",
+            "DEVELOPMENT": {
+              "TITLE": "Бұлшықеттердің даму деңгейі",
+              "WEAKLY_DEVELOPED": "Нашар дамыған",
+              "SATISFACTORILY_DEVELOPED": "Қанағаттанарлықтай дамыған",
+              "WELL_DEVELOPED": "Жақсы дамыған"
+            },
+            "TROPHIC": {
+              "TITLE": "Бұлшықет трофикасы",
+              "ATROPHY": "Бұлшықет атрофиясы",
+              "HYPERTROPHY": "Бұлшықет гипертрофиясы"
+            },
+            "TONE": {
+              "TITLE": "Бұлшықет тонусы",
+              "HYPOTONIA": "Гипотонус",
+              "HYPERTONIA": "Гипертонус",
+              "MYOTONIA": "Миотония"
+            }
+          },
+          "BONE_MUSCLE_SYSTEM": {
+            "TITLE": "Сүйек-бұлшықет жүйесі",
+            "NO_DEFORMATIONS": "Деформациясыз",
+            "DEFORMATION": "Деформация",
+            "DOLICHOCEPHALIC": "Бас пішіні долихоцефалиялық",
+            "BRACHYCEPHALIC": "Бас пішіні брахицефалиялық",
+            "TOWER_SKULL": "Мұнара тәрізді бас сүйек",
+            "MESOCRANIA": "Мезокрания",
+            "MICROCEPHALY": "Микроцефалия",
+            "HYDROCEPHALY": "Гидроцефалия",
+            "CRANIOSTENOSIS": "Краниостеноз",
+            "LARGE_FONTANEL": "Үлкен мең"
+          },
+          "THYROID_GLAND": {
+            "TITLE": "Қалқанша без",
+            "NOT_PALPABLE": "Пальпацияланбайды",
+            "ENLARGED": "Ұлғайған",
+            "PAINLESS": "Ауырсынусыз",
+            "PAINFUL": "Ауырсынатын",
+            "NECK_SHAPE": "Мойын пішіні"
           }
         },
         "SPECIALISTS_CONCLUSION": {

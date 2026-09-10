@@ -626,3 +626,112 @@ app-laboratory-data {
   flex-direction: column !important;
   gap: 24px !important;
 }
+
+/* ========================================
+   Shared-компоненты: стили для UI-примитивов
+   ======================================== */
+
+/* Тело раскрывающегося блока */
+.block-content .block-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Вложенные раскрывающиеся блоки */
+.laboratory-block.nested-block {
+  margin-left: 24px;
+}
+
+.laboratory-block.nested-block > .block-header {
+  background: #F8FAFC;
+  height: 40px;
+}
+
+/* Check-field: чекбокс + label + опциональное поле справа */
+.check-field-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.check-field-row .checkbox-label {
+  flex: 1;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #020617;
+}
+
+.check-field-row .check-comment-input {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+/* Text-input-field: label слева + input справа */
+.input-field-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 4px 0;
+}
+
+.input-field-row .row-label,
+.dropdown-field-row .row-label {
+  flex: 1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #020617;
+}
+
+.input-field-row input {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+/* Dropdown-field: label слева + dropdown справа */
+.dropdown-field-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 4px 0;
+}
+
+.dropdown-field-row .p-dropdown.therapeutic-dropdown {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+/* Textarea-field: textarea на всю ширину */
+app-textarea-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Контейнеры форм */
+app-therapeutic-status,
+app-laboratory-data {
+  display: block;
+}
+
+.therapeutic-status-form,
+.laboratory-data-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Подзаголовок пункта внутри блока (shared-компонент group-title) */
+.group-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #020617;
+  margin-top: 8px;
+}
