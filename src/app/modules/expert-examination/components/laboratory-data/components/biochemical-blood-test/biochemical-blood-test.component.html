@@ -1,6 +1,5 @@
 <div class="laboratory-block">
 
-  <!-- Заголовок -->
   <div class="block-header" (click)="toggle()">
     <i class="pi pi-chevron-down"
        [class.rotated]="isExpanded"
@@ -11,9 +10,53 @@
     </span>
   </div>
 
-  <!-- Содержимое -->
   <div class="block-content" *ngIf="isExpanded">
-    <p class="placeholder-text">Макеты блока в разработке</p>
+    <form [formGroup]="form" class="fields-container">
+
+      <div class="checkbox-row">
+        <p-checkbox
+          inputId="biochemicalTestNormal"
+          [(ngModel)]="isBiochemicalTestNormal"
+          (ngModelChange)="onBiochemicalTestNormalChange($event)"
+          [binary]="true"
+          [ngModelOptions]="{standalone: true}">
+        </p-checkbox>
+        <label for="biochemicalTestNormal" class="checkbox-label">
+          {{ 'MAIN.EXAMINATION.EXPERT_EXAMINATION.LABORATORY_DATA.IN_NORMAL_RANGE' | translate }}
+        </label>
+      </div>
+
+      <div class="fields-grid">
+        <div class="field-group" *ngFor="let field of biochemicalFields">
+          <label [attr.for]="field.key" class="field-label">
+            {{ field.labelKey | translate }}
+          </label>
+          <input
+            [attr.id]="field.key"
+            type="text"
+            [formControlName]="field.key"
+            pInputText
+            [placeholder]="'MAIN.EXAMINATION.EXPERT_EXAMINATION.LABORATORY_DATA.ENTER_VALUE' | translate"
+            class="w-full"
+          />
+          <small class="field-hint">
+            {{ field.hintKey | translate }}
+          </small>
+        </div>
+      </div>
+
+      <div class="field-group full-width">
+        <textarea
+          formControlName="history"
+          pInputTextarea
+          [autoResize]="true"
+          [rows]="2"
+          [placeholder]="'MAIN.EXAMINATION.EXPERT_EXAMINATION.LABORATORY_DATA.ENTER_VALUE' | translate"
+          class="w-full history-textarea"
+        ></textarea>
+      </div>
+
+    </form>
   </div>
 
 </div>

@@ -1,17 +1,11 @@
 import { Component, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TranslateModule } from '@ngx-translate/core';  // ← Добавили
-
-// PrimeNG модули
+import { TranslateModule } from '@ngx-translate/core';
 import { ButtonModule } from 'primeng/button';
-
-// Импортируем все блоки
 import { AdditionalMethodsComponent } from './components/additional-methods/additional-methods.component';
 import { BloodTestComponent } from './components/blood-test/blood-test.component';
 import { BiochemicalBloodTestComponent } from './components/biochemical-blood-test/biochemical-blood-test.component';
 import { UrineTestComponent } from './components/urine-test/urine-test.component';
-
-// Модель
 import { LaboratoryDataDTO } from './models/laboratory-data.models';
 
 @Component({
@@ -19,7 +13,7 @@ import { LaboratoryDataDTO } from './models/laboratory-data.models';
   standalone: true,
   imports: [
     CommonModule,
-    TranslateModule,  // ← Добавили
+    TranslateModule,
     ButtonModule,
     AdditionalMethodsComponent,
     BloodTestComponent,
@@ -39,18 +33,21 @@ export class LaboratoryDataComponent {
     return {
       additionalMethods: this.additionalMethodsComponent.getData(),
       bloodTest: this.bloodTestComponent.getData(),
-      biochemicalBloodTest: {} as any,
-      urineTest: {} as any
+      biochemicalBloodTest: this.biochemicalComponent.getData(),
+      urineTest: this.urineTestComponent.getData()
     };
   }
 
   public setData(data: LaboratoryDataDTO): void {
     this.additionalMethodsComponent.setData(data.additionalMethods);
     this.bloodTestComponent.setData(data.bloodTest);
+    this.biochemicalComponent.setData(data.biochemicalBloodTest);
+    this.urineTestComponent.setData(data.urineTest);
   }
 
   public onSave(): void {
     const data = this.getData();
     console.log('LaboratoryDataDTO:', data);
+    // TODO: отправка на бэкенд через сервис
   }
 }
