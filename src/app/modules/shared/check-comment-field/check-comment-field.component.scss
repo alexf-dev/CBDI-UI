@@ -1,0 +1,34 @@
+.check-comment-field {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+
+  &.bottom-position {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    .comment-input.bottom {
+      width: 100%;
+    }
+  }
+
+  .check-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  .check-label {
+    font-size: 14px;
+    color: #262626;
+    user-select: none;
+  }
+
+  .comment-input {
+    flex: 1;
+    min-width: 200px;
+  }
+}

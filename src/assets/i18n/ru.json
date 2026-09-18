@@ -931,7 +931,184 @@
           "TITLE": "Объеденение ИИН"
         },
         "SURGICAL_STATUS": {
-          "TITLE": "Хирургический статус"
+          "TITLE": "Хирургический статус",
+          "SAVE": "Сохранить",
+          "ENTER_VALUE": "Введите",
+          "SPECIALIST": "Специалист",
+          "CONCLUSION": "Заключение",
+
+          "SPECIALIST_DATA": {
+            "TITLE": "Специалист"
+          },
+
+          "SURGICAL_PATHOLOGY_DATA": {
+            "TITLE": "Данные за хирургическую патологию",
+            "HAS_SURGICAL_PATHOLOGY": "Данные за хирургическую патологию"
+          },
+
+          "GENERAL_CONDITION": {
+            "TITLE": "Общее состояние",
+            "SATISFACTORY": "Удовлетворительное",
+            "RELATIVELY_SATISFACTORY": "Относительно удовлетворительное",
+            "MODERATE": "Средней тяжести",
+            "SEVERE": "Тяжелое",
+            "EXTREMELY_SEVERE": "Крайне тяжелое"
+          },
+
+          "MOBILITY": {
+            "TITLE": "Передвижение",
+            "INDEPENDENT": "Самостоятельное",
+            "WITH_CANE": "С помощью трости",
+            "WITH_CRUTCHES": "На костыле",
+            "WHEELCHAIR": "На коляске",
+            "SUPPORT_ON_INJURED_LIMB": "С опорой на поврежденную конечность",
+            "COMMENT": "Комментарий"
+          },
+
+          "SKIN_MUCOUS": {
+            "TITLE": "Кожные покровы и видимые слизистые",
+            "NORMAL": "Кожные покровы и видимые слизистые"
+          },
+
+          "MUSCULAR_SYSTEM": {
+            "TITLE": "Мышечная система",
+            "DEVELOPMENT": {
+              "TITLE": "Степень развития мышц",
+              "WEAKLY_DEVELOPED": "Развита слабо",
+              "SATISFACTORILY_DEVELOPED": "Развита удовлетворительно",
+              "WELL_DEVELOPED": "Хорошо развита"
+            },
+            "TONE": {
+              "TITLE": "Мышечный тонус",
+              "ATROPHY": "Атрофия мышц",
+              "HYPERTROPHY": "Гипертрофия мышц",
+              "HYPOTONIA": "Гипотонус",
+              "HYPERTONIA": "Гипертонус",
+              "MYOTONIA": "Миотония"
+            }
+          },
+
+          "BONE_SYSTEM": {
+            "TITLE": "Костная система",
+            "DEFORMATION": "Деформация",
+            "NO_DEFORMATION": "Без деформации"
+          },
+
+          "JOINTS": {
+            "TITLE": "Суставы",
+            "NORMAL_CONFIGURATION": "Обычной конфигурации",
+            "FULL_RANGE_OF_MOTION": "Движения в полном объёме",
+            "SWELLING": "Припухлость",
+            "PAIN": "Болезненность",
+            "LIMITED_MOTION": "Объём движений ограничен",
+            "CREPITUS": "Хруст при движениях",
+            "FLUCTUATION": "Флюктуация",
+            "CONTRACTURES": "Контрактуры",
+            "ANKYLOSES": "Анкилозы",
+            "LIMITED_ABDUCTION": "Ограничение отведения ноги",
+            "CLICK_SYMPTOM": "Симптом \"щелчка\" при разведении бедер",
+            "SKIN_FOLD_ASYMMETRY": "Асимметрия кожных складок на бедрах",
+            "LIMB_SHORTENING": "Укорочение конечности",
+            "EXTERNAL_ROTATION": "Наружная ротация конечности",
+            "COMMENT": "Комментарий"
+          },
+
+          "LYMPH_NODES": {
+            "TITLE": "Периферические лимфатические узлы",
+            "MAIN_SIGNS": "Основные признаки",
+            "NOT_PALPABLE": "Не пальпируются",
+            "NOT_ENLARGED": "Не увеличены",
+            "ENLARGED": {
+              "TITLE": "Увеличены",
+              "SUBMANDIBULAR": "Подчелюстные",
+              "CERVICAL": "Шейные",
+              "SUPRACLAVICULAR": "Надключичные",
+              "INFRACLAVICULAR": "Подключичные",
+              "ELBOW": "Локтевые",
+              "AXILLARY": "Подмышечные",
+              "INGUINAL": "Паховые"
+            },
+            "ADDITIONAL_SIGNS": "Доп. признаки",
+            "MOBILE": "Подвижные",
+            "PAINFUL": "Болезненные",
+            "NOT_MATTED": "Не спаяны",
+            "MATTED": "Спаянные с окружающими тканями",
+            "DENSE": "Плотные",
+            "ADDITIONAL_INFO": "Дополнительная информация"
+          },
+
+          "RESPIRATORY_SYSTEM": {
+            "TITLE": "Система дыхания",
+            "VESICULAR_BREATHING": "Дыхание везикулярное",
+            "LUNG_RALES": "Хрипы в лёгких",
+            "CLEAR_PERCUSSION": "Перкуторно ясный лёгочный звук",
+            "DULL_PERCUSSION": "Притупление перкуторного звука",
+            "ADDITIONAL_INFO": "Дополнительная информация"
+          },
+
+          "CARDIOVASCULAR_SYSTEM": {
+            "TITLE": "Сердечно сосудистая система",
+            "HEART_SOUNDS": "Тоны сердца",
+            "BLOOD_PRESSURE": "Артериальное давление",
+            "RHYTHMIC_PULSE": "Пульс ритмичный",
+            "PULSE_RATE": "Частота пульса в минуту",
+            "ADDITIONAL_INFO": "Дополнительная информация"
+          },
+
+          "GASTROINTESTINAL_TRACT": {
+            "TITLE": "Желудочно-кишечный тракт",
+            "TONGUE_CLEAN_MOIST": "Язык чистый, влажный",
+            "TONGUE_COATED": "Язык обложен",
+            "ABDOMEN_SOFT": "Живот мягкий",
+            "ABDOMEN_DISTENDED": "Живот вздут",
+            "POSTOPERATIVE_SCAR": "Послеоперационный рубец",
+            "ABDOMEN_PAINLESS": "При пальпации живот безболезненный",
+            "ABDOMEN_PAINFUL_IN": "При пальпации живот болезненный в",
+            "UMBILICAL_HERNIA": "Пупочная грыжа",
+            "INGUINAL_HERNIA": "Паховая грыжа",
+            "FEMORAL_HERNIA": "Бедренная грыжа",
+            "LINEA_ALBA_HERNIA": "Грыжа белой линии живота",
+            "RECTUS_DIASTASIS": "Расхождение прямых мышц живота",
+            "LIVER_NOT_PALPABLE": "Печень не пальпируется",
+            "LIVER_PROTRUDES": "Печень выступает из-под реберья на",
+            "SPLEEN_NOT_PALPABLE": "Селезёнка не пальпируется",
+            "STOOL_NORMAL": "Стул нормальный",
+            "STOOL_UNSTABLE": "Стул неустойчивый",
+            "SPASTIC_CONSTIPATION": "Запор спастический",
+            "ATONIC_CONSTIPATION": "Запор атонический"
+          },
+
+          "UROGENITAL_SYSTEM": {
+            "TITLE": "Мочеполовая система",
+            "EDEMA": "Отёки",
+            "PERCUSSION_SYMPTOM": "Симптом поколачивания",
+            "NORMAL_URINATION": "Мочеиспускание нормальное",
+            "PAINFUL_URINATION": "Мочеиспускание болезненное, учащённое",
+            "ADDITIONAL_INFO": "Дополнительная информация"
+          },
+
+          "LOCAL_STATUS": {
+            "TITLE": "Локальный статус",
+            "DESCRIPTION": "Локальный статус"
+          },
+
+          "ORGAN_FUNCTION_IMPAIRMENT": {
+            "TITLE": "Нарушение функций органа или области",
+            "ORGAN_SIZE": "Размеры поврежденного органа",
+            "SPREAD": "Распространенность",
+            "BOUNDARIES": "Границы",
+            "IMMOBILIZATION": "Иммобилизация",
+            "FIXATION_DEVICE": "Фиксирующий аппарат",
+            "PATHOLOGICAL_MOBILITY": "Патологическая подвижность",
+            "DEFORMATION": "Деформация",
+            "HYPOTROPHY": "Гипотрофия",
+            "ATROPHY": "Атрофия",
+            "WOUND_SIZE": "Размеры раны",
+            "FISTULA_SIZE": "Размеры свища",
+            "WOUND_DISCHARGE": "Характер отделяемого из раны",
+            "PERIPHERAL_VESSEL_PULSATION": "Пульсация периферических сосудов",
+            "TROPHIC_CHANGES": "Трофические изменения конечностей"
+          }
         },
         "NEUROLOGICAL_STATUS": {
           "TITLE": "Неврологический статус"

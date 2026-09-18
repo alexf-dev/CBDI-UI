@@ -3,15 +3,14 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from "@ngx-translate/core";
 
-// Routing
 import { ExpertExaminationRoutingModule } from './expert-examination-routing.module';
 
-// Компоненты
 import { ExpertExaminationComponent } from './expert-examination.component';
 import { LaboratoryDataComponent } from './components/laboratory-data/laboratory-data.component';
 import { TherapeuticStatusComponent } from './components/therapeutic-status/therapeutic-status.component';
 import { SpecialistsConclusionComponent } from './components/specialists-conclusion/specialists-conclusion.component';
 import { RehabilitationConclusionComponent } from './components/rehabilitation-conclusion/rehabilitation-conclusion.component';
+import { SurgicalStatusComponent } from './components/surgical-status/surgical-status.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,8 @@ import { RehabilitationConclusionComponent } from './components/rehabilitation-c
     LaboratoryDataComponent,
     TherapeuticStatusComponent,
     SpecialistsConclusionComponent,
-    RehabilitationConclusionComponent
+    RehabilitationConclusionComponent,
+    SurgicalStatusComponent
   ]
 })
 export class ExpertExaminationModule { }

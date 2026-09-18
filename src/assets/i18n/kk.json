@@ -933,7 +933,184 @@
           "TITLE": "Объеденение ИИН КАЗ"
         },
         "SURGICAL_STATUS": {
-          "TITLE": "Хирургический статус КАЗ"
+          "TITLE": "Хирургиялық деңгейі",
+          "SAVE": "Сақтау",
+          "ENTER_VALUE": "Енгізіңіз",
+          "SPECIALIST": "Маман",
+          "CONCLUSION": "Қорытынды",
+
+          "SPECIALIST_DATA": {
+            "TITLE": "Маман"
+          },
+
+          "SURGICAL_PATHOLOGY_DATA": {
+            "TITLE": "Хирургиялық патология бойынша деректер",
+            "HAS_SURGICAL_PATHOLOGY": "Хирургиялық патология бойынша деректер"
+          },
+
+          "GENERAL_CONDITION": {
+            "TITLE": "Жалпы жағдайы",
+            "SATISFACTORY": "Қанағаттанарлық",
+            "RELATIVELY_SATISFACTORY": "Салыстырмалы қанағаттанарлық",
+            "MODERATE": "Орташа ауырлықта",
+            "SEVERE": "Ауыр",
+            "EXTREMELY_SEVERE": "Өте ауыр"
+          },
+
+          "MOBILITY": {
+            "TITLE": "Қозғалысы",
+            "INDEPENDENT": "Өздігінен",
+            "WITH_CANE": "Таяқтың көмегімен",
+            "WITH_CRUTCHES": "Балдақпен",
+            "WHEELCHAIR": "Арбамен",
+            "SUPPORT_ON_INJURED_LIMB": "Зақымдалған аяқ-қолға сүйеніп",
+            "COMMENT": "Пікір"
+          },
+
+          "SKIN_MUCOUS": {
+            "TITLE": "Тері жабындылары және көрінетін шырышты қабаттар",
+            "NORMAL": "Тері жабындылары және көрінетін шырышты қабаттар"
+          },
+
+          "MUSCULAR_SYSTEM": {
+            "TITLE": "Бұлшықет жүйесі",
+            "DEVELOPMENT": {
+              "TITLE": "Бұлшықет даму деңгейі",
+              "WEAKLY_DEVELOPED": "Нашар дамыған",
+              "SATISFACTORILY_DEVELOPED": "Қанағаттанарлық дамыған",
+              "WELL_DEVELOPED": "Жақсы дамыған"
+            },
+            "TONE": {
+              "TITLE": "Бұлшықет тонусы",
+              "ATROPHY": "Бұлшықет атрофиясы",
+              "HYPERTROPHY": "Бұлшықет гипертрофиясы",
+              "HYPOTONIA": "Гипотонус",
+              "HYPERTONIA": "Гипертонус",
+              "MYOTONIA": "Миотония"
+            }
+          },
+
+          "BONE_SYSTEM": {
+            "TITLE": "Сүйек жүйесі",
+            "DEFORMATION": "Деформация",
+            "NO_DEFORMATION": "Деформациясыз"
+          },
+
+          "JOINTS": {
+            "TITLE": "Буындар",
+            "NORMAL_CONFIGURATION": "Қалыпты конфигурациялы",
+            "FULL_RANGE_OF_MOTION": "Қозғалыс көлемі толық",
+            "SWELLING": "Ісіну",
+            "PAIN": "Ауырсыну",
+            "LIMITED_MOTION": "Қозғалыс көлемі шектелген",
+            "CREPITUS": "Қозғалыс кезінде сықырлау",
+            "FLUCTUATION": "Флюктуация",
+            "CONTRACTURES": "Контрактуралар",
+            "ANKYLOSES": "Анкилоздар",
+            "LIMITED_ABDUCTION": "Аяқты сыртқа әкетудің шектелуі",
+            "CLICK_SYMPTOM": "Сандарды екі жаққа ажыратқанда «сырт ету» симптомы",
+            "SKIN_FOLD_ASYMMETRY": "Сандағы тері қатпарларының асимметриясы",
+            "LIMB_SHORTENING": "Аяқ-қолдың қысқаруы",
+            "EXTERNAL_ROTATION": "Аяқ-қолдың сыртқа ротациясы",
+            "COMMENT": "Пікір"
+          },
+
+          "LYMPH_NODES": {
+            "TITLE": "Шеткі лимфа түйіндері",
+            "MAIN_SIGNS": "Негізгі белгілер",
+            "NOT_PALPABLE": "Сезілмейді",
+            "NOT_ENLARGED": "Үлкеймеген",
+            "ENLARGED": {
+              "TITLE": "Үлкейген",
+              "SUBMANDIBULAR": "Жақасты",
+              "CERVICAL": "Мойын",
+              "SUPRACLAVICULAR": "Бұғанаүсті",
+              "INFRACLAVICULAR": "Бұғанаасты",
+              "ELBOW": "Шынтақ",
+              "AXILLARY": "Қолтықасты",
+              "INGUINAL": "Шап"
+            },
+            "ADDITIONAL_SIGNS": "Қосымша белгілер",
+            "MOBILE": "Қозғалмалы",
+            "PAINFUL": "Ауырсынатын",
+            "NOT_MATTED": "Жабыспаған",
+            "MATTED": "Қоршаған тіндермен жабысып қалған",
+            "DENSE": "Тығыз",
+            "ADDITIONAL_INFO": "Қосымша ақпарат"
+          },
+
+          "RESPIRATORY_SYSTEM": {
+            "TITLE": "Тыныс алу жүйесі",
+            "VESICULAR_BREATHING": "Везикулярлы тыныс алу",
+            "LUNG_RALES": "Өкпедегі сырылдар",
+            "CLEAR_PERCUSSION": "Перкуссияда анық өкпе дыбысы",
+            "DULL_PERCUSSION": "Перкуторлық дыбыстың тұйықталуы",
+            "ADDITIONAL_INFO": "Қосымша ақпарат"
+          },
+
+          "CARDIOVASCULAR_SYSTEM": {
+            "TITLE": "Жүрек-қантамыр жүйесі",
+            "HEART_SOUNDS": "Жүрек тондары",
+            "BLOOD_PRESSURE": "Артериялық қысым",
+            "RHYTHMIC_PULSE": "Пульс ырғақты",
+            "PULSE_RATE": "Пульс жиілігі минутына",
+            "ADDITIONAL_INFO": "Қосымша ақпарат"
+          },
+
+          "GASTROINTESTINAL_TRACT": {
+            "TITLE": "Асқазан-ішек жолы",
+            "TONGUE_CLEAN_MOIST": "Тіл таза, ылғалды",
+            "TONGUE_COATED": "Тілде жабынды бар",
+            "ABDOMEN_SOFT": "Іші жұмсақ",
+            "ABDOMEN_DISTENDED": "Іші кебіңкі",
+            "POSTOPERATIVE_SCAR": "Операциядан кейінгі тыртық",
+            "ABDOMEN_PAINLESS": "Пальпация кезінде іші ауырсынусыз",
+            "ABDOMEN_PAINFUL_IN": "Пальпация кезінде іштің ... аймағында ауырсыну",
+            "UMBILICAL_HERNIA": "Кіндік жарығы",
+            "INGUINAL_HERNIA": "Шап жарығы",
+            "FEMORAL_HERNIA": "Сан жарығы",
+            "LINEA_ALBA_HERNIA": "Іштің ақ сызығының жарығы",
+            "RECTUS_DIASTASIS": "Іштің тік бұлшықеттерінің ажырауы",
+            "LIVER_NOT_PALPABLE": "Бауыр пальпацияланбайды",
+            "LIVER_PROTRUDES": "Бауыр қабырға доғасынан ... шығып тұрады",
+            "SPLEEN_NOT_PALPABLE": "Көкбауыр пальпацияланбайды",
+            "STOOL_NORMAL": "Нәжіс қалыпты",
+            "STOOL_UNSTABLE": "Нәжіс тұрақсыз",
+            "SPASTIC_CONSTIPATION": "Спастикалық іш қату",
+            "ATONIC_CONSTIPATION": "Атониялық іш қату"
+          },
+
+          "UROGENITAL_SYSTEM": {
+            "TITLE": "Несеп-жыныс жүйесі",
+            "EDEMA": "Ісінулер",
+            "PERCUSSION_SYMPTOM": "Соққылау симптомы",
+            "NORMAL_URINATION": "Зәр шығару қалыпты",
+            "PAINFUL_URINATION": "Зәр шығару ауырсынумен, жиілеген",
+            "ADDITIONAL_INFO": "Қосымша ақпарат"
+          },
+
+          "LOCAL_STATUS": {
+            "TITLE": "Жергілікті мәртебе",
+            "DESCRIPTION": "Жергілікті мәртебе"
+          },
+
+          "ORGAN_FUNCTION_IMPAIRMENT": {
+            "TITLE": "Органның немесе аймақтың функцияларының бұзылуы",
+            "ORGAN_SIZE": "Зақымдалған ағзаның өлшемдері",
+            "SPREAD": "Таралуы",
+            "BOUNDARIES": "Шекаралары",
+            "IMMOBILIZATION": "Иммобилизация",
+            "FIXATION_DEVICE": "Бекітуші аппарат",
+            "PATHOLOGICAL_MOBILITY": "Патологиялық қозғалғыштық",
+            "DEFORMATION": "Деформация",
+            "HYPOTROPHY": "Гипотрофия",
+            "ATROPHY": "Атрофия",
+            "WOUND_SIZE": "Жараның өлшемдері",
+            "FISTULA_SIZE": "Жыланкөздің өлшемдері",
+            "WOUND_DISCHARGE": "Жарадан бөлінетін бөліндінің сипаты",
+            "PERIPHERAL_VESSEL_PULSATION": "Шеткері қан тамырларының пульсациясы",
+            "TROPHIC_CHANGES": "Аяқ-қолдардың трофикалық өзгерістері"
+          }
         },
         "NEUROLOGICAL_STATUS": {
           "TITLE": "Неврологический статус КАЗ"
