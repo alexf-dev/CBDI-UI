@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
@@ -39,8 +39,7 @@ const MOCK_ADDITIONAL_METHODS: AdditionalMethodsDTO = {
 })
 export class AdditionalMethodsComponent implements OnInit {
   public form: FormGroup;
-
-  @Input() public isExpanded = true;
+  public isExpanded = true;
 
   public titleStyle = {
     'font-family': 'Inter, sans-serif',

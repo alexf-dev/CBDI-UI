@@ -1,0 +1,20 @@
+<div class="rehabilitation-conclusion-form">
+
+  <app-text-input-field
+    [labelKey]="translationPrefix + 'SPECIALIST'"
+    [(value)]="model.specialist">
+  </app-text-input-field>
+
+  <app-rehabilitation-diagnostics></app-rehabilitation-diagnostics>
+
+  <app-rehabilitation-recommendations></app-rehabilitation-recommendations>
+
+  <div class="form-actions">
+    <p-button
+      [label]="'MAIN.EXAMINATION.COMMON.SAVE' | translate"
+      styleClass="save-button"
+      (onClick)="onSave()">
+    </p-button>
+  </div>
+
+</div>

@@ -1,16 +1,24 @@
 <div class="laboratory-data-form">
 
-    <app-additional-methods [isExpanded]="isBlockExpanded(0)"></app-additional-methods>
-    <app-blood-test [isExpanded]="isBlockExpanded(1)"></app-blood-test>
-    <app-biochemical-blood-test [isExpanded]="isBlockExpanded(2)"></app-biochemical-blood-test>
-    <app-urine-test [isExpanded]="isBlockExpanded(3)"></app-urine-test>
+  <!-- Блок 1: Данные дополнительных и лабораторных методов обследования -->
+  <app-additional-methods></app-additional-methods>
 
-    <div class="form-actions">
-        <p-button
-                [label]="'MAIN.COMMON.SAVE' | translate"
-                styleClass="save-button"
-                (onClick)="onSave()">
-        </p-button>
-    </div>
+  <!-- Блок 2: Общий анализ крови -->
+  <app-blood-test></app-blood-test>
+
+  <!-- Блок 3: Биохимический анализ крови -->
+  <app-biochemical-blood-test></app-biochemical-blood-test>
+
+  <!-- Блок 4: Общий анализ мочи -->
+  <app-urine-test></app-urine-test>
+
+  <!-- Кнопка Сохранить -->
+  <div class="form-actions">
+    <p-button
+      label="{{ 'MAIN.EXAMINATION.EXPERT_EXAMINATION.SAVE' | translate }}"
+      styleClass="save-button"
+      (onClick)="onSave()">
+    </p-button>
+  </div>
 
 </div>

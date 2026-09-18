@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
@@ -76,11 +76,10 @@ const MOCK_URINE_TEST: UrineTestDTO = {
 })
 export class UrineTestComponent implements OnInit {
   public form: FormGroup;
+  public isExpanded = false;
   public isUrineTestNormal = false;
 
   public urineFields = URINE_FIELDS_CONFIG;
-
-  @Input() public isExpanded = true;
 
   constructor(private fb: FormBuilder) {}
 
