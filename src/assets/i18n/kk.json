@@ -313,32 +313,32 @@
         "TITLE": "Сараптамалық тексеру",
         "SAVE": "Сақтау",
         "LABORATORY_DATA": {
-          "TITLE": "Зертханалық зерттеу деректері",
-          "ADDITIONAL_METHODS_SECTION": "Қосымша және зертханалық зерттеу әдістерінің деректері",
+          "TITLE": "Зертханалық зерттеулердің деректері",
+          "ADDITIONAL_METHODS_SECTION": "Қосымша және зертханалық зерттеу әдістерінен алынған деректер",
           "KAG": "КАГ",
-          "XRAY": "Рентгенография",
-          "ULTRASOUND": "ДЗ/ДЗЗ",
-          "ABDOMINAL_ULTRASOUND": "Қуыс ағзаларының ДЗ",
-          "HEART_ULTRASOUND": "Жүректің ДЗ",
+          "XRAY": "Рентген",
+          "ULTRASOUND": "УДЗ",
+          "ABDOMINAL_ULTRASOUND": "Іш қуысы мүшелерінің ультрадыбыстық зерттеуі",
+          "HEART_ULTRASOUND": "Жүректің ультрадыбыстық зерттеуі",
           "ECG": "ЭКГ",
           "EEG": "ЭЭГ",
           "OTHER": "Басқа",
-          "BLOOD_TEST": "Жалпы қан талдауы",
+          "BLOOD_TEST": "Қанның жалпы талдауы",
           "IN_NORMAL_RANGE": "Қалыпты шекте",
           "ERYTHROCYTES": "Эритроциттер",
           "HEMOGLOBIN": "Hb",
-          "COLOR_INDEX": "ТК/ТК",
+          "COLOR_INDEX": "ТК",
           "HEMATOCRIT": "Гематокрит",
           "PLATELETS": "Тромбоциттер",
           "LEUKOCYTES": "Лейкоциттер",
-          "BAND_NUCLEAR": "Таяқша ядролы",
-          "SEGMENTED_NUCLEAR": "Сегмент ядролы",
+          "BAND_NUCLEAR": "Жолақты нейтрофилдер",
+          "SEGMENTED_NUCLEAR": "Сегментті нейтрофилдер",
           "EOSINOPHILS": "Эозинофилдер",
           "BASOPHILS": "Базофилдер",
           "LYMPHOCYTES": "Лимфоциттер",
           "MONOCYTES": "Моноциттер",
-          "ESR": "СОЭ",
-          "BIOCHEMICAL_BLOOD_TEST": "Биохимиялық қан талдауы",
+          "ESR": "ЭТЖ",
+          "BIOCHEMICAL_BLOOD_TEST": "Қанның биохимиялық талдауы",
           "URINE_TEST": "Жалпы зәр талдауы",
           "SAVE": "Сақтау",
           "ENTER_VALUE": "Енгізіңіз",
@@ -451,7 +451,7 @@
             "CYLINDERS": "Анықталмады",
             "MUCUS": "Аз мөлшерде",
             "BACTERIA": "Анықталмады",
-            "INORGANIC_SEDIMENT": ""
+            "INORGANIC_SEDIMENT": "Бейорганикалық шөгінді"
           }
         },
         "THERAPEUTIC_STATUS": {
@@ -910,11 +910,24 @@
             "NECK_SHAPE": "Мойын пішіні"
           }
         },
-        "SPECIALISTS_CONCLUSION": {
-          "TITLE": "Заключение специалистов ЛПУ КАЗ"
+        "SPECIALIST_CONCLUSION": {
+          "TITLE": "Емдеу-профилактикалық ұйым мамандарының қорытындысы",
+          "SPECIALIST_1_TITLE": "1-ші маман",
+          "SPECIALIST_2_TITLE": "2-ші маман",
+          "FULL_NAME": "Маманның Т.А.Ә.",
+          "SPECIALTY": "Мамандығы",
+          "CONCLUSION": "Қорытынды"
         },
         "REHABILITATION_CONCLUSION": {
-          "TITLE": "Реабилитационно-экспертное заключение КАЗ"
+          "TITLE": "Оңалту-сараптамалық қорытынды",
+          "SPECIALIST": "Маман",
+          "DIAGNOSTICS_SECTION": "Оңалту-сараптамалық диагностика",
+          "REHABILITATION_POTENTIAL": "Оңалту әлеуеті",
+          "REHABILITATION_PROGNOSIS": "Оңалту болжамы",
+          "CLINICAL_PROGNOSIS": "Клиникалық болжам",
+          "RECOMMENDATIONS_SECTION": "Оңалту бойынша ұсынымдар",
+          "SOCIAL_REHABILITATION": "Әлеуметтік оңалту",
+          "PROFESSIONAL_REHABILITATION": "Кәсіптік оңалту"
         },
         "IIN_MERGE": {
           "TITLE": "Объеденение ИИН КАЗ"
@@ -1157,6 +1170,10 @@
     "CONFIRMATION": "Растау",
     "YES": "Иә",
     "NO": "Жоқ"
+  },
+  "REESTR_IE_EXPERTS": {
+    "TITLE": "Тәуелсіз сарапшылар тізімі",
+    "EXCLUDE": "Шығару"
   },
   "OMK": {
     "APPEAL": "Шағымдау",

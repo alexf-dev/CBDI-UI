@@ -3,11 +3,14 @@ import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { ButtonModule } from 'primeng/button';
 
+import { CollapsibleBlockComponent } from '@shared/collapsible-block/collapsible-block.component';
 import { TextInputFieldComponent } from '@shared/text-input-field/text-input-field.component';
 
 import { RehabilitationDiagnosticsComponent } from './components/rehabilitation-diagnostics/rehabilitation-diagnostics.component';
 import { RehabilitationRecommendationsComponent } from './components/rehabilitation-recommendations/rehabilitation-recommendations.component';
 import { RehabilitationConclusionDTO } from './models/rehabilitation-conclusion.models';
+
+const REHABILITATION_CONCLUSION_PREFIX = 'MAIN.EXAMINATION.EXPERT_EXAMINATION.REHABILITATION_CONCLUSION.';
 
 @Component({
   selector: 'app-rehabilitation-conclusion',
@@ -16,6 +19,7 @@ import { RehabilitationConclusionDTO } from './models/rehabilitation-conclusion.
     CommonModule,
     TranslateModule,
     ButtonModule,
+    CollapsibleBlockComponent,
     TextInputFieldComponent,
     RehabilitationDiagnosticsComponent,
     RehabilitationRecommendationsComponent
@@ -24,6 +28,11 @@ import { RehabilitationConclusionDTO } from './models/rehabilitation-conclusion.
   styleUrls: ['./rehabilitation-conclusion.component.scss']
 })
 export class RehabilitationConclusionComponent {
+  public translationPrefix = REHABILITATION_CONCLUSION_PREFIX;
+
+  /** Поле "Специалист" хранится в родительском компоненте */
+  public specialist = '';
+
   @ViewChild(RehabilitationDiagnosticsComponent) diagnosticsBlock!: RehabilitationDiagnosticsComponent;
   @ViewChild(RehabilitationRecommendationsComponent) recommendationsBlock!: RehabilitationRecommendationsComponent;
 

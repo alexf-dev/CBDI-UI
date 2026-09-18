@@ -12,10 +12,15 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
   styleUrls: ['./textarea-field.component.scss']
 })
 export class TextareaFieldComponent {
+  private static idCounter = 0;
+
+  @Input() labelKey = '';
   @Input() value = '';
   @Output() valueChange = new EventEmitter<string>();
   @Input() rows = 2;
   @Input() placeholderKey = 'MAIN.COMMON.ENTER_VALUE';
+
+  public inputId = 'textarea-field-' + ++TextareaFieldComponent.idCounter;
 
   public onValue(value: string): void {
     this.value = value;

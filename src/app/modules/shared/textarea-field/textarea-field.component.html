@@ -1,8 +1,12 @@
-<textarea
-  pInputTextarea
-  [rows]="rows"
-  [autoResize]="true"
-  [ngModel]="value"
-  (ngModelChange)="onValue($event)"
-  [placeholder]="placeholderKey | translate"
-></textarea>
+<div class="input-field-row">
+  <label class="row-label" [attr.for]="inputId">{{ labelKey | translate }}</label>
+  <textarea
+    [id]="inputId"
+    pInputTextarea
+    [rows]="rows"
+    [autoResize]="true"
+    [ngModel]="value"
+    (ngModelChange)="onValue($event)"
+    [placeholder]="placeholderKey | translate"
+  ></textarea>
+</div>

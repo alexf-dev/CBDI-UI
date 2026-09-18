@@ -315,7 +315,7 @@
           "ADDITIONAL_METHODS_SECTION": "Данные дополнительных и лабораторных методов обследования",
           "KAG": "КАГ",
           "XRAY": "Рентгенография",
-          "ULTRASOUND": "УЗИ/УЗД",
+          "ULTRASOUND": "УЗИ",
           "ABDOMINAL_ULTRASOUND": "УЗИ органов брюшной полости",
           "HEART_ULTRASOUND": "УЗИ сердца",
           "ECG": "ЭКГ",
@@ -325,7 +325,7 @@
           "IN_NORMAL_RANGE": "В пределах нормы",
           "ERYTHROCYTES": "Эритроциты",
           "HEMOGLOBIN": "Hb",
-          "COLOR_INDEX": "ЦП/ТК",
+          "COLOR_INDEX": "ЦП",
           "HEMATOCRIT": "Гематокрит",
           "PLATELETS": "Тромбоциты",
           "LEUKOCYTES": "Лейкоциты",
@@ -449,7 +449,7 @@
             "CYLINDERS": "Отсутствуют",
             "MUCUS": "Незначительное количество",
             "BACTERIA": "Отсутствуют",
-            "INORGANIC_SEDIMENT": ""
+            "INORGANIC_SEDIMENT": "Неорганический осадок"
           }
         },
         "THERAPEUTIC_STATUS": {
@@ -908,11 +908,24 @@
             "NECK_SHAPE": "Форма шеи"
           }
         },
-        "SPECIALISTS_CONCLUSION": {
-          "TITLE": "Заключение специалистов ЛПУ"
+        "SPECIALIST_CONCLUSION": {
+          "TITLE": "Заключение специалистов ЛПУ",
+          "SPECIALIST_1_TITLE": "1-й специалист",
+          "SPECIALIST_2_TITLE": "2-й специалист",
+          "FULL_NAME": "ФИО специалиста",
+          "SPECIALTY": "Специальность",
+          "CONCLUSION": "Заключение"
         },
         "REHABILITATION_CONCLUSION": {
-          "TITLE": "Реабилитационно-экспертное заключение"
+          "TITLE": "Реабилитационно-экспертное заключение",
+          "SPECIALIST": "Специалист",
+          "DIAGNOSTICS_SECTION": "Реабилитационно-экспертная диагностика",
+          "REHABILITATION_POTENTIAL": "Реабилитационный потенциал",
+          "REHABILITATION_PROGNOSIS": "Реабилитационный прогноз",
+          "CLINICAL_PROGNOSIS": "Клинический прогноз",
+          "RECOMMENDATIONS_SECTION": "Рекомендации по реабилитации",
+          "SOCIAL_REHABILITATION": "Социальная реабилитация",
+          "PROFESSIONAL_REHABILITATION": "Профессиональная реабилитация"
         },
         "IIN_MERGE": {
           "TITLE": "Объеденение ИИН"
@@ -1158,6 +1171,10 @@
     "CONFIRMATION": "Подтверждение",
     "YES": "Да",
     "NO": "Нет"
+  },
+  "REESTR_IE_EXPERTS": {
+    "TITLE": "Реестр независимых экспертов",
+    "EXCLUDE": "Исключить"
   },
   "OMK": {
     "APPEAL": "Обжаловать",

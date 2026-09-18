@@ -10,8 +10,8 @@
     [(value)]="model.specialty">
   </app-text-input-field>
 
-  <label for="xray" class="field-label">
-    {{ translationPrefix + 'CONCLUSION' }}
+  <label for="conclusion" class="field-label">
+    {{ translationPrefix + 'CONCLUSION' | translate }}
   </label>
   <app-textarea-field
     [(value)]="model.conclusion">
